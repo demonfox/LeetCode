@@ -46,25 +46,25 @@ public class RomanToInteger {
     }
 
     public static void Run() {
-        RomanToInteger r = new RomanToInteger();
+        RomanToInteger s = new RomanToInteger();
         
-        System.out.println(r.romanToInt("I"));
-        System.out.println(r.romanToInt("V"));
-        System.out.println(r.romanToInt("X"));
-        System.out.println(r.romanToInt("L"));
-        System.out.println(r.romanToInt("C"));
-        System.out.println(r.romanToInt("D"));
-        System.out.println(r.romanToInt("M"));
-        System.out.println(r.romanToInt("III"));
-        System.out.println(r.romanToInt("XI"));
-        System.out.println(r.romanToInt("IX"));
-        System.out.println(r.romanToInt("XXXI"));
-        System.out.println(r.romanToInt("XCI"));
-        System.out.println(r.romanToInt("XCII"));
-        System.out.println(r.romanToInt("XXXIX"));
-        System.out.println(r.romanToInt("CDIV"));
-        System.out.println(r.romanToInt("XC"));
-        System.out.println(r.romanToInt("MCMXCIX"));
-        System.out.println(r.romanToInt("MMCDXX"));
+        System.out.println(s.romanToInt("I"));
+        System.out.println(s.romanToInt("V"));
+        System.out.println(s.romanToInt("X"));
+        System.out.println(s.romanToInt("L"));
+        System.out.println(s.romanToInt("C"));
+        System.out.println(s.romanToInt("D"));
+        System.out.println(s.romanToInt("M"));
+        System.out.println(s.romanToInt("III"));
+        System.out.println(s.romanToInt("XI"));
+        System.out.println(s.romanToInt("IX"));
+        System.out.println(s.romanToInt("XXXI"));
+        System.out.println(s.romanToInt("XCI"));
+        System.out.println(s.romanToInt("XCII"));
+        System.out.println(s.romanToInt("XXXIX"));
+        System.out.println(s.romanToInt("CDIV"));
+        System.out.println(s.romanToInt("XC"));
+        System.out.println(s.romanToInt("MCMXCIX"));
+        System.out.println(s.romanToInt("MMCDXX"));
     }
 }
