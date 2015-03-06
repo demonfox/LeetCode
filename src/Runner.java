@@ -2,8 +2,7 @@ import java.lang.reflect.InvocationTargetException;
 
 public class Runner {
     public static void main(String[] args) {
-        Run("ReverseInteger");
-        Run("PalindromeNumber");
+        Run("LongestPalindromicSubstring");
     }
 
     private static void Run(String problem) {
