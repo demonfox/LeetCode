@@ -16,12 +16,9 @@ public class BestTimeToBuyAndSellStock {
 
         for (int i = 1; i < prices.length; i++) {
             if (prices[i] < currBuy) {
-                currBuy = prices[i];
-                currSell = currBuy;
-            } else if (prices[i] > currSell) {
-                int profit = prices[i] - currBuy;
-                if (profit > currMax)
-                    currMax = profit;
+                currSell = currBuy = prices[i];
+            } else if ((prices[i] > currSell) && (prices[i] - currBuy) > currMax) {
+                    currMax = prices[i] - currBuy;
             }
         }
         
