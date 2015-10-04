@@ -2,7 +2,7 @@ import java.lang.reflect.InvocationTargetException;
 
 public class Runner {
     public static void main(String[] args) {
-        Run("ClimbStairs");
+        Run("ValidParentheses");
     }
 
     private static void Run(String problem) {
