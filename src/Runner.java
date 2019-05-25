@@ -2,15 +2,15 @@ import java.lang.reflect.InvocationTargetException;
 
 public class Runner {
     public static void main(String[] args) {
-        Run("ValidateBinarySearchTree");
+        Run("BinaryTreeInorderTraversal");
     }
 
     private static void Run(String problem) {
         String methodName = "Run";
 
         try {
-            Class cl = Class.forName(problem);
-            Class arguments[] = new Class[] {};
+            Class<?> cl = Class.forName(problem);
+            Class<?> arguments[] = new Class[] {};
             java.lang.reflect.Method objMethod 
                 = cl.getMethod(methodName, arguments);
             objMethod.invoke(null);

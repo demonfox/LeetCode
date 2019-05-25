@@ -13,6 +13,7 @@
 0026. Remove Duplicates From Sorted Array
 0029. Divide Two Integers
 0070. Climb Stairs
+0094. Binary Tree Inorder Traversal
 0098. Validate Binary Search Tree
 0121. Best Time To Buy And Sell Stock
 0122. Best Time To Buy And Sell Stock II

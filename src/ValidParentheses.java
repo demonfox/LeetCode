@@ -8,7 +8,7 @@ import java.util.*;
 public class ValidParentheses {
     
     public boolean isValid(String s) {
-        Stack stack = new Stack();
+        Stack<Character> stack = new Stack<Character>();
         
         for (int i=0; i<s.length(); i++) {
             char p = s.charAt(i);
