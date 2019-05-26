@@ -17,4 +17,5 @@
 0098. Validate Binary Search Tree
 0121. Best Time To Buy And Sell Stock
 0122. Best Time To Buy And Sell Stock II
+0136. Single Number
 

@@ -23,7 +23,7 @@ public class ValidateBinarySearchTree {
         }
         if (null != upper) {
             if (root.val >= upper.intValue())
-                    return false;
+                return false;
         }
         return isValidBSTHelper(root.left, lower, root.val) && isValidBSTHelper(root.right, root.val, upper);
     }
