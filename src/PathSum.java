@@ -10,8 +10,7 @@ public class PathSum {
             return false;
         if (null == root.left && null == root.right)
             return sum == root.val;
-        return ((root.left != null) ? hasPathSum(root.left, sum - root.val) : false)
-            || ((root.right != null) ? hasPathSum(root.right, sum - root.val) : false);
+        return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
     }
     
     public static void Run() {
