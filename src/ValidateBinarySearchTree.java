@@ -5,13 +5,6 @@
 // The right subtree of a node contains only nodes with keys greater than the node's key.
 // Both the left and right subtrees must also be binary search trees.
 // ------------------------------------------ //
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
      
 public class ValidateBinarySearchTree {
     private boolean isValidBSTHelper(TreeNode root, Integer lower, Integer upper) {

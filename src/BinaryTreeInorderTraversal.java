@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
@@ -22,7 +21,7 @@ public class BinaryTreeInorderTraversal {
         Stack<TreeNode> stack = new Stack<TreeNode>();
 
         TreeNode curr = root;
-        while(null != curr || !stack.isEmpty()) {
+        while (null != curr || !stack.isEmpty()) {
             while (null != curr.left) {
                 stack.push(curr);
                 curr = curr.left;

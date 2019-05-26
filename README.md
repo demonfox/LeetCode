@@ -15,6 +15,7 @@
 0070. Climb Stairs
 0094. Binary Tree Inorder Traversal
 0098. Validate Binary Search Tree
+0112. Path Sum
 0121. Best Time To Buy And Sell Stock
 0122. Best Time To Buy And Sell Stock II
 0136. Single Number
