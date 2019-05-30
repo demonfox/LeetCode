@@ -22,21 +22,13 @@ public class BinaryTreeInorderTraversal {
 
         TreeNode curr = root;
         while (null != curr || !stack.isEmpty()) {
-            while (null != curr.left) {
+            while (null != curr) {
                 stack.push(curr);
                 curr = curr.left;
             }
+            curr = stack.pop();
             result.add(new Integer(curr.val));
-            if (null != curr.right)
-                curr = curr.right;
-            else {
-                if (!stack.isEmpty()) {
-                    curr = stack.pop();
-                    curr.left = null; // we have already traversed left child, so stop the infinite loop
-                } else {
-                    curr = null;
-                }
-            }
+            curr = curr.right;
         }
         return result;
     }

@@ -19,7 +19,7 @@ public class LongestPalindromicSubstring {
     }
     
     public String longestPalindrome(String s) {
-        if (s == "") 
+        if (s == "")
             return "";
         String longest = s.substring(0, 1);
         for (int i = 0; i < s.length() - 1; i++) {

@@ -55,6 +55,6 @@ public class PathSumII {
 
         for (List<Integer> var : result) {
             System.out.println(var);
-        }   
+        }
     }
 }
