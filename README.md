@@ -16,6 +16,7 @@
 0094. Binary Tree Inorder Traversal
 0098. Validate Binary Search Tree
 0099. Recover Binary Search Tree
+0100. Same Tree
 0112. Path Sum
 0113. Path Sum II
 0121. Best Time To Buy And Sell Stock

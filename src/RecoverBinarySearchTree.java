@@ -22,8 +22,8 @@ public class RecoverBinarySearchTree {
     // that right-most node should have the largest value among the nodes in the left subtree.
     // 2. So the recursive algorithm here is supposed to find the largest value in its left
     // subtree (becuase we are always assigning min = curr) and then the algorithm visits this
-    // curr node.  Then we can if the curr node's val is smaller than min - if it is, then that
-    // is a wrong node.
+    // curr node.  Then we can check if the curr node's val is smaller than min - if it is, then
+    // that is a wrong node.
     // 3. Then we traverse the right node (locateWrongNode(curr.right)).  Before we do that, we
     // assign min = curr because the curr node, which the root of the right sub-tree should be
     // the lowest floor vale for its right sub-tree.
