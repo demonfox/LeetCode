@@ -4,8 +4,10 @@
 0003. Longest Substring Without Repeating Characters
 0004. Median Of Two Sorted Arrays
 0005. Longest Palindromic Substring
+0006. ZigZag Conversion
 0007. Reverse Integer
 0009. Palindrome Number
+0011. Container With Most Water
 0013. Roman To Integer
 0015. 3 Sum
 0019. Remove Nth Node From End Of List
