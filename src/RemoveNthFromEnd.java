@@ -8,19 +8,24 @@
 //   Try to do this in one pass.
 // ------------------------------------------ //
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class RemoveNthFromEnd {
     
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode ptr1 = head;
-        ListNode ptr2 = null;
+        ListNode ptr2 = null; // ptr2 is the node to be removed
         ListNode ptr3 = null;
         while (ptr1 != null) {
             ptr1 = ptr1.next;
             if (ptr2 != null ) {
+                // wait until ptr1 is n-step ahead before starting to move ptr2
                 ptr3 = ptr2;
                 ptr2 = ptr2.next;
             }
             n--;
+            // now that ptr1 is n-step ahead, let ptr2 start to move
             if (n == 0) {
                 ptr2 = head;
             }
@@ -32,15 +37,13 @@ public class RemoveNthFromEnd {
         return head;
     }
 
-    private static void printList(ListNode head) {
-        StringBuilder s = new StringBuilder();
-        ListNode p = head;
-        while (p != null) {
-            s.append(p.val);
-            s.append(" ");
-            p = p.next;
+    public static void printList(ListNode node) {
+        List<String> s = new ArrayList<String>();
+        while(node != null) {
+            s.add(Integer.toString(node.val));
+            node = node.next;
         }
-        System.out.println(s.toString());
+        System.out.println(String.join("->", s));
     }
     
     public static void Run() {

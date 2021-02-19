@@ -6,7 +6,7 @@ import java.util.Stack;
 // Given a binary tree, return the inorder traversal of its nodes' values.
 // ------------------------------------------ //
 
-// This class is already defined in ValidateBinarySearchTree.java
+// This class is already defined in TreeNode.java
 // class TreeNode {
 //     int val;
 //     TreeNode left;
@@ -27,7 +27,7 @@ public class BinaryTreeInorderTraversal {
                 curr = curr.left;
             }
             curr = stack.pop();
-            result.add(new Integer(curr.val));
+            result.add(Integer.valueOf(curr.val));
             curr = curr.right;
         }
         return result;

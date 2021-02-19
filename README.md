@@ -15,7 +15,10 @@
 0018. 4Sum
 0019. Remove Nth Node From End Of List
 0020. Valid Parentheses
+0021. Merge Two Sorted Lists
 0026. Remove Duplicates From Sorted Array
+0027. Remove Element
+0028. Implement strStr()
 0029. Divide Two Integers
 0070. Climb Stairs
 0094. Binary Tree Inorder Traversal
