@@ -6,8 +6,10 @@
 0005. Longest Palindromic Substring
 0006. ZigZag Conversion
 0007. Reverse Integer
+0008. String to Integer (atoi)
 0009. Palindrome Number
 0011. Container With Most Water
+0012. Integer to Roman
 0013. Roman To Integer
 0014. Longest Common Prefix
 0015. 3Sum
