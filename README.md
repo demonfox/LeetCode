@@ -14,6 +14,7 @@
 0014. Longest Common Prefix
 0015. 3Sum
 0016. 3Sum Closest
+0017. Letter Combinations of a Phone Number
 0018. 4Sum
 0019. Remove Nth Node From End Of List
 0020. Valid Parentheses
@@ -32,3 +33,5 @@
 0121. Best Time To Buy And Sell Stock
 0122. Best Time To Buy And Sell Stock II
 0136. Single Number
+0167. Two Sum II - Input array is sorted
+0653. Two Sum IV - Input is a BST
