@@ -19,6 +19,7 @@
 0019. Remove Nth Node From End Of List
 0020. Valid Parentheses
 0021. Merge Two Sorted Lists
+0022. Generate Parentheses
 0024. Swap Nodes in Pairs
 0025. Reverse Nodes in k-Group
 0026. Remove Duplicates From Sorted Array
