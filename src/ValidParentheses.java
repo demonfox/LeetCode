@@ -7,21 +7,16 @@ import java.util.*;
 
 public class ValidParentheses {
     
+    static Map<Character, Character> mapping = Map.of('}', '{', ']', '[', ')', '(');
+
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
         
         for (int i=0; i<s.length(); i++) {
             char p = s.charAt(i);
-            if (p == '{' || p == '(' || p == '[') {
+            if (!mapping.containsKey(s.charAt(i))) {
                 stack.push(p);
-            } else {
-                if (stack.isEmpty())
-                    return false;
-                char t = (char) stack.pop();
-                if ((t == '{' && p == '}')
-                    || (t == '(' && p == ')')
-                    || (t == '[' && p == ']'))
-                    continue;
+            } else if (stack.empty() || mapping.get(s.charAt(i)) != stack.pop()) {
                 return false;
             }
         }

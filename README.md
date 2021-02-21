@@ -19,6 +19,8 @@
 0019. Remove Nth Node From End Of List
 0020. Valid Parentheses
 0021. Merge Two Sorted Lists
+0024. Swap Nodes in Pairs
+0025. Reverse Nodes in k-Group
 0026. Remove Duplicates From Sorted Array
 0027. Remove Element
 0028. Implement strStr()
@@ -33,5 +35,8 @@
 0121. Best Time To Buy And Sell Stock
 0122. Best Time To Buy And Sell Stock II
 0136. Single Number
+0141. Linked List Cycle
+0142. Linked List Cycle II
 0167. Two Sum II - Input array is sorted
+0206. Reverse Linked List
 0653. Two Sum IV - Input is a BST
