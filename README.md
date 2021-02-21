@@ -25,6 +25,7 @@
 0027. Remove Element
 0028. Implement strStr()
 0029. Divide Two Integers
+0036. Valid Sudoku
 0070. Climb Stairs
 0094. Binary Tree Inorder Traversal
 0098. Validate Binary Search Tree
@@ -39,4 +40,6 @@
 0142. Linked List Cycle II
 0167. Two Sum II - Input array is sorted
 0206. Reverse Linked List
+0225. Implement Stack using Queues
+0232. Implment Queue using Stacks
 0653. Two Sum IV - Input is a BST
