@@ -46,5 +46,6 @@
 0225. Implement Stack using Queues
 0232. Implment Queue using Stacks
 0239. Sliding Window Maximum
+0242. Valid Anagram
 0653. Two Sum IV - Input is a BST
 0703. Kth Largest Element in a Stream

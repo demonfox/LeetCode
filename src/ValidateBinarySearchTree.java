@@ -33,6 +33,18 @@ public class ValidateBinarySearchTree {
         return isValidBSTHelper(root, null, null);
     }
 
+    private TreeNode prev = null;
+    public boolean isValidBST2(TreeNode root) {
+        if (root == null)
+            return true;
+        if (!isValidBST2(root.left))
+            return false;
+        if (prev != null && root.val <= prev.val)
+            return false;
+        prev = root;
+        return isValidBST2(root.right);
+    }
+
     public static void Run() {
         ValidateBinarySearchTree s = new ValidateBinarySearchTree();
 
