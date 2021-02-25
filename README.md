@@ -33,6 +33,8 @@
 0098. Validate Binary Search Tree
 0099. Recover Binary Search Tree
 0100. Same Tree
+0105. Construct Binary Tree from Preorder and Inorder Traversal
+0106. Construct Binary Tree from Inorder and Postorder Traversal
 0112. Path Sum
 0113. Path Sum II
 0121. Best Time To Buy And Sell Stock
@@ -45,6 +47,8 @@
 0206. Reverse Linked List
 0225. Implement Stack using Queues
 0232. Implment Queue using Stacks
+0235. Lowest Common Ancestor of a Binary Search Tree
+0236. Lowest Common Ancestor of a Binary Tree
 0239. Sliding Window Maximum
 0242. Valid Anagram
 0653. Two Sum IV - Input is a BST
