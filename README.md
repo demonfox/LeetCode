@@ -33,6 +33,8 @@
 0098. Validate Binary Search Tree
 0099. Recover Binary Search Tree
 0100. Same Tree
+0101. Symmetric Tree
+0102. Binary Tree Level Order Traversal
 0105. Construct Binary Tree from Preorder and Inorder Traversal
 0106. Construct Binary Tree from Inorder and Postorder Traversal
 0112. Path Sum
