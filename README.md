@@ -41,6 +41,7 @@
 0113. Path Sum II
 0121. Best Time To Buy And Sell Stock
 0122. Best Time To Buy And Sell Stock II
+0128. Longest Consecutive Sequence
 0136. Single Number
 0141. Linked List Cycle
 0142. Linked List Cycle II
