@@ -27,6 +27,7 @@
 0028. Implement strStr()
 0029. Divide Two Integers
 0036. Valid Sudoku
+0050. Pow(x, n)
 0070. Climb Stairs
 0088. Merge Sorted Array
 0094. Binary Tree Inorder Traversal
@@ -47,6 +48,7 @@
 0142. Linked List Cycle II
 0160. Intersection of Two Linked Lists
 0167. Two Sum II - Input array is sorted
+0169. Majority Element
 0206. Reverse Linked List
 0225. Implement Stack using Queues
 0232. Implment Queue using Stacks
