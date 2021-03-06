@@ -3,12 +3,13 @@
 // The number of nodes in the tree is in the range [0, 2000].
 // -1000 <= Node.val <= 1000
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
 public class BinaryTreeLevelOrderTraversal {
-    public List<List<Integer>> levelOrder(TreeNode root) {
+    public List<List<Integer>> levelOrder2(TreeNode root) {
         LinkedList<List<Integer>> result = new LinkedList<List<Integer>>();
         if (root == null)
             return result;
@@ -39,6 +40,47 @@ public class BinaryTreeLevelOrderTraversal {
         return result;
     }
 
+    public List<List<Integer>> levelOrder3(TreeNode root) {
+        List<List<Integer>> result = new LinkedList<List<Integer>>();
+        if (root == null)
+            return result;
+        Queue<TreeNode> q = new LinkedList<TreeNode>(); 
+        q.add(root);
+        while(!q.isEmpty()) {
+            List<Integer> currLevelNodes = new LinkedList<Integer>();
+            int nodesOnCurrLevel = q.size();
+            while(nodesOnCurrLevel-- != 0) {
+                TreeNode node = q.remove();
+                currLevelNodes.add(node.val);
+                if (node.left != null)
+                    q.add(node.left);
+                if (node.right != null)
+                    q.add(node.right);
+            }
+            result.add(currLevelNodes);
+        }
+        return result;
+    }
+
+    private ArrayList<List<Integer>> resultUsingDFS;
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        if (root == null)
+            return resultUsingDFS;
+        resultUsingDFS = new ArrayList<List<Integer>>();
+        dfsHelper(root, 0);
+        return resultUsingDFS;
+    }
+
+    private void dfsHelper(TreeNode node, int level) {
+        if (node == null)
+            return;
+        if (resultUsingDFS.size() < level + 1) {
+            resultUsingDFS.add(new LinkedList<Integer>());
+        }
+        resultUsingDFS.get(level).add(node.val);
+        dfsHelper(node.left, level+1);
+        dfsHelper(node.right, level+1);
+    }
     public static void Run() {
         BinaryTreeLevelOrderTraversal t = new BinaryTreeLevelOrderTraversal();
         TreeNode n1 = new TreeNode(3);
