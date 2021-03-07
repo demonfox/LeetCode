@@ -62,11 +62,10 @@ public class BinaryTreeLevelOrderTraversal {
         return result;
     }
 
-    private ArrayList<List<Integer>> resultUsingDFS;
+    private ArrayList<List<Integer>> resultUsingDFS = new ArrayList<List<Integer>>();
     public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null)
             return resultUsingDFS;
-        resultUsingDFS = new ArrayList<List<Integer>>();
         dfsHelper(root, 0);
         return resultUsingDFS;
     }
@@ -81,6 +80,7 @@ public class BinaryTreeLevelOrderTraversal {
         dfsHelper(node.left, level+1);
         dfsHelper(node.right, level+1);
     }
+    
     public static void Run() {
         BinaryTreeLevelOrderTraversal t = new BinaryTreeLevelOrderTraversal();
         TreeNode n1 = new TreeNode(3);

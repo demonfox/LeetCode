@@ -36,8 +36,10 @@
 0100. Same Tree
 0101. Symmetric Tree
 0102. Binary Tree Level Order Traversal
+0104. Maximum Depth of Binary Tree
 0105. Construct Binary Tree from Preorder and Inorder Traversal
 0106. Construct Binary Tree from Inorder and Postorder Traversal
+0111. Minimum Depth of Binary Tree
 0112. Path Sum
 0113. Path Sum II
 0121. Best Time To Buy And Sell Stock
