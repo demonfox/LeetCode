@@ -22,10 +22,6 @@ public class Sqrt {
     return mid;
   }
 
-  public int mySqrt2(int x) {
-    
-  }
-
   public static void Run() {
     Sqrt s = new Sqrt();
     System.out.println(s.mySqrt(4));

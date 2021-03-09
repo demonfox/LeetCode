@@ -28,6 +28,8 @@
 0029. Divide Two Integers
 0036. Valid Sudoku
 0050. Pow(x, n)
+0051. N-Queens
+0052. N-Queens II
 0069. Sqrt(x)
 0070. Climb Stairs
 0088. Merge Sorted Array
