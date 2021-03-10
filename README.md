@@ -32,6 +32,7 @@
 0052. N-Queens II
 0069. Sqrt(x)
 0070. Climb Stairs
+0079. Word Search
 0088. Merge Sorted Array
 0094. Binary Tree Inorder Traversal
 0098. Validate Binary Search Tree
@@ -58,6 +59,7 @@
 0169. Majority Element
 0206. Reverse Linked List
 0207. Course Schedule
+0208. Implement Trie (Prefix Tree)
 0225. Implement Stack using Queues
 0232. Implment Queue using Stacks
 0235. Lowest Common Ancestor of a Binary Search Tree
