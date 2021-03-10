@@ -57,14 +57,17 @@
 0160. Intersection of Two Linked Lists
 0167. Two Sum II - Input array is sorted
 0169. Majority Element
+0191. Number of 1 Bits
 0206. Reverse Linked List
 0207. Course Schedule
 0208. Implement Trie (Prefix Tree)
 0225. Implement Stack using Queues
+0231. Power of Two
 0232. Implment Queue using Stacks
 0235. Lowest Common Ancestor of a Binary Search Tree
 0236. Lowest Common Ancestor of a Binary Tree
 0239. Sliding Window Maximum
 0242. Valid Anagram
+0338. Counting Bits
 0653. Two Sum IV - Input is a BST
 0703. Kth Largest Element in a Stream
