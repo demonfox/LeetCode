@@ -7,13 +7,13 @@
 public class BinaryTree2LinkedList {
   public void flatten(TreeNode root) {
     // check if there is a left child for curr
-    // if there isn't, go to 4)
+    // if there isn't, go to 5)
     // if there is, then
     // 1) find the right most child of the left subtree
     // 2) move the right subtree to be the child node of 1)
     // 3) move the left subtree to be the right child of curr
     // 4) nullify the left child of curr
-    // 4) make recursive calls on the right child
+    // 5) make recursive calls on the right child
     if (root == null)
       return;
     TreeNode curr = root;
