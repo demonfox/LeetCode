@@ -30,6 +30,7 @@
 0050. Pow(x, n)
 0051. N-Queens
 0052. N-Queens II
+0067. Add Binary
 0069. Sqrt(x)
 0070. Climb Stairs
 0079. Word Search
@@ -62,6 +63,7 @@
 0206. Reverse Linked List
 0207. Course Schedule
 0208. Implement Trie (Prefix Tree)
+0212. Word Search II
 0225. Implement Stack using Queues
 0231. Power of Two
 0232. Implment Queue using Stacks
