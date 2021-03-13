@@ -49,6 +49,7 @@
 0112. Path Sum
 0113. Path Sum II
 0114. Flatten Binary Tree to Linked List
+0120. Triangle
 0121. Best Time To Buy And Sell Stock
 0122. Best Time To Buy And Sell Stock II
 0123. Best Time To Buy And Sell Stock III
@@ -56,6 +57,7 @@
 0136. Single Number
 0141. Linked List Cycle
 0142. Linked List Cycle II
+0152. Maximum Product Subarray
 0160. Intersection of Two Linked Lists
 0167. Two Sum II - Input array is sorted
 0168. Excel Sheet Column Title
