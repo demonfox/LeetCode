@@ -58,12 +58,15 @@
 0136. Single Number
 0141. Linked List Cycle
 0142. Linked List Cycle II
+0146. LRU Cahce
 0152. Maximum Product Subarray
 0160. Intersection of Two Linked Lists
 0167. Two Sum II - Input array is sorted
 0168. Excel Sheet Column Title
 0169. Majority Element
 0191. Number of 1 Bits
+0200. Number of Islands
+0202. Happy Number
 0206. Reverse Linked List
 0207. Course Schedule
 0208. Implement Trie (Prefix Tree)

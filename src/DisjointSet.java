@@ -4,6 +4,8 @@ public class DisjointSet {
     int[] parents;
     int[] sizes;
     int[] ranks;
+    int numOfSets;
+
     DisjointSet(int n){
         parents = new int[n];
         ranks = new int[n];
@@ -18,12 +20,13 @@ public class DisjointSet {
         // union by rank heuristic
         int rootA = findSet(a);
         int rootB = findSet(b);
-		if(rootA == rootB)
-		    return -1;
+		    if(rootA == rootB)
+		      return -1;
 			
         if(ranks[rootA]>ranks[rootB]){
             parents[rootB] = rootA;
             sizes[rootA] += sizes[rootB];
+            numOfSets--;
             // here we are returning the size of the union set
             return sizes[rootA];
         } else {
@@ -32,6 +35,7 @@ public class DisjointSet {
             if(ranks[rootB]==ranks[rootA]){
                 ranks[rootB]++;
             }
+            numOfSets--;
             return sizes[rootB];
         }
     }
