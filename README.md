@@ -33,6 +33,7 @@
 0067. Add Binary
 0069. Sqrt(x)
 0070. Climb Stairs
+0072. Edit Distance
 0079. Word Search
 0088. Merge Sorted Array
 0094. Binary Tree Inorder Traversal
@@ -74,6 +75,8 @@
 0236. Lowest Common Ancestor of a Binary Tree
 0239. Sliding Window Maximum
 0242. Valid Anagram
+0300. Longest Increasing Subsequence
+0322. Coin Change
 0338. Counting Bits
 0653. Two Sum IV - Input is a BST
 0703. Kth Largest Element in a Stream
