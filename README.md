@@ -31,6 +31,7 @@
 0051. N-Queens
 0052. N-Queens II
 0053. Maximum Subarray
+0066. Plus One
 0067. Add Binary
 0069. Sqrt(x)
 0070. Climb Stairs
