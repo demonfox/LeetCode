@@ -30,6 +30,7 @@
 0050. Pow(x, n)
 0051. N-Queens
 0052. N-Queens II
+0053. Maximum Subarray
 0067. Add Binary
 0069. Sqrt(x)
 0070. Climb Stairs
@@ -64,6 +65,7 @@
 0167. Two Sum II - Input array is sorted
 0168. Excel Sheet Column Title
 0169. Majority Element
+0188. Best Time to Buy and Sell Stock IV
 0191. Number of 1 Bits
 0200. Number of Islands
 0202. Happy Number
