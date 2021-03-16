@@ -27,6 +27,7 @@
 0028. Implement strStr()
 0029. Divide Two Integers
 0033. Search in Rotated Sorted Array
+0034. Find First and Last Position of Element in Sorted Array
 0036. Valid Sudoku
 0050. Pow(x, n)
 0051. N-Queens
