@@ -2,7 +2,7 @@
 // Return the index of the first occurrence of needle in haystack, 
 // or -1 if needle is not part of haystack.
 
-public class strStr {
+public class StrStr {
     public int strStr(String haystack, String needle) {
         if (needle.length() == 0)
             return 0;
@@ -24,7 +24,7 @@ public class strStr {
     }
 
     public static void Run() {
-        strStr s = new strStr();
+        StrStr s = new StrStr();
         System.out.println(s.strStr("hello", "ll"));
         System.out.println(s.strStr("helollo", "ll"));
         System.out.println(s.strStr("aaaaa", "bba"));
