@@ -41,8 +41,11 @@
 0072. Edit Distance
 0073. Set Matrix Zeroes
 0075. Sort Colors
+0076. Minimum Window Substring
+0078. Subsets
 0079. Word Search
 0088. Merge Sorted Array
+0091. Decode Ways
 0094. Binary Tree Inorder Traversal
 0098. Validate Binary Search Tree
 0099. Recover Binary Search Tree
