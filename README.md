@@ -56,6 +56,7 @@
 0104. Maximum Depth of Binary Tree
 0105. Construct Binary Tree from Preorder and Inorder Traversal
 0106. Construct Binary Tree from Inorder and Postorder Traversal
+0108. Convert Sorted Array to Binary Search Tree
 0111. Minimum Depth of Binary Tree
 0112. Path Sum
 0113. Path Sum II
@@ -92,5 +93,6 @@
 0322. Coin Change
 0338. Counting Bits
 0653. Two Sum IV - Input is a BST
+0655. Print Binary Tree
 0703. Kth Largest Element in a Stream
 1143. Longest Common Subsequence

@@ -4,7 +4,6 @@
 // Each solution contains a distinct board configuration of the n-queens' 
 // placement, where 'Q' and '.' both indicate a queen and an empty space, respectively.
 
-import java.util.Deque;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;

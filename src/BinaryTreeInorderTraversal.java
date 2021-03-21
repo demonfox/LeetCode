@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
-
 // -----------  Problem Synopsis  ----------- //
 // Given a binary tree, return the inorder traversal of its nodes' values.
 // ------------------------------------------ //
@@ -13,6 +9,10 @@ import java.util.Stack;
 //     TreeNode right;
 //     TreeNode(int x) { val = x; }
 // }
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 
 public class BinaryTreeInorderTraversal {
     // iterative traversal
