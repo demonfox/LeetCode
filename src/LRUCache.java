@@ -7,6 +7,7 @@
 // from this operation, evict the least recently used key.
 
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class LRUCache {
   LinkedHashMap<Integer, Integer> map;

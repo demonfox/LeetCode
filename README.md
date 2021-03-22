@@ -62,6 +62,7 @@
 0113. Path Sum II
 0114. Flatten Binary Tree to Linked List
 0116. Populating Next Right Pointers in Each Node
+0118. Pascal's Triangle
 0120. Triangle
 0121. Best Time To Buy And Sell Stock
 0122. Best Time To Buy And Sell Stock II
@@ -72,6 +73,7 @@
 0142. Linked List Cycle II
 0146. LRU Cahce
 0152. Maximum Product Subarray
+0155. Min Stack
 0160. Intersection of Two Linked Lists
 0167. Two Sum II - Input array is sorted
 0168. Excel Sheet Column Title
