@@ -6,26 +6,37 @@
 // ------------------------------------------ //
 
 public class BestTimeToBuyAndSellStock {
-    public int maxProfit(int[] prices) {
-        if (prices.length <= 1)
-            return 0;
-        
-        int currMax = 0;
-        int currBuy = prices[0];
-        int currSell = currBuy;
+  public int maxProfit(int[] prices) {
+    if (prices.length <= 1)
+      return 0;
 
-        for (int i = 1; i < prices.length; i++) {
-            if (prices[i] < currBuy) {
-                currSell = currBuy = prices[i];
-            } else if ((prices[i] > currSell) && (prices[i] - currBuy) > currMax) {
-                    currMax = prices[i] - currBuy;
-            }
-        }
-        
-        return currMax;
+    int maxprofit = 0;
+    int low = prices[0];
+
+    for (int i = 1; i < prices.length; i++) {
+      maxprofit = Math.max(prices[i] - low, maxprofit);
+      low = Math.min(prices[i], low);
     }
-    
-    public static void Run() {
-        
+
+    return maxprofit;
+  }
+
+  public int maxProfit2(int[] prices) {
+    int result = 0;
+    int[][] profits = new int[prices.length][3];
+    profits[0][0] = 0; // profit value for "No Stock"
+    profits[0][1] = -prices[0]; //profit value for "Buy"
+    profits[0][2] = 0; // profit value for "Sell", but we cannot really sell, so start with 0
+    for (int i=1; i<prices.length; i++) {
+      profits[i][0] = profits[i-1][0];
+      profits[i][1] = Math.max(profits[i-1][1], profits[i-1][0]-prices[i]);
+      profits[i][2] = profits[i-1][1]+prices[i];
+      result = Math.max(Math.max(Math.max(profits[i][0], profits[i][1]), profits[i][2]), result);
     }
+    return result;
+  }
+
+  public static void Run() {
+
+  }
 }

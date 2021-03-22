@@ -69,10 +69,32 @@ public class BestTimeToBuyAndSellStockII {
       }
       return maxprofit;
     }
+
+    // using dynamic programming
+    public int maxProfit4(int[] prices) {
+      // define a state function DP[i][2], where:
+      // DP[i][0] - the max profit we can achieve on ith day holding 0 share
+      // DP[i][1] - the max profit we can achieve on ith day holding 1 share
+      // Observe:
+      // DP[i][0] = max(DP[i-1][0], DP[i-1][1] + prices[i])
+      // DP[i][1] = max(DP[i-1][1], DP[i-1][0] - prices[i]) 
+      // result = DP[last_day][0] since we should notice DP[i][0] is an increasing sequence 
+      // and still holding a share on the last_day is plain stupid
+      int[][] DP = new int[prices.length][2];
+      DP[0][0] = 0;
+      DP[0][1] = -prices[0];
+      for (int i=1; i<prices.length; i++) {
+        DP[i][0] = Math.max(DP[i-1][0], DP[i-1][1] + prices[i]);
+        DP[i][1] = Math.max(DP[i-1][1], DP[i-1][0] - prices[i]);
+      }
+      return DP[prices.length-1][0];
+    }
+
     public static void Run() {
         BestTimeToBuyAndSellStockII s = new BestTimeToBuyAndSellStockII();
         System.out.println(s.maxProfit(new int[]{1,2,3,4,5}));
         System.out.println(s.maxProfit2(new int[]{1,2,3,4,5}));
         System.out.println(s.maxProfit3(new int[]{1,2,3,4,5}));
+        System.out.println(s.maxProfit4(new int[]{1,2,3,4,5}));
     }
 }

@@ -50,8 +50,10 @@ public class PopulateNextPointerInTree {
         }
         currNode.next = null;
         prevNode = currNode;
-        q.add(currNode.left); // since we are guaranteed a perfect binary tree, so no need to check for null
-        q.add(currNode.right);
+        if (currNode.left != null)
+          q.add(currNode.left);
+        if (currNode.right != null)
+          q.add(currNode.right);
       }
     }
     return root;
