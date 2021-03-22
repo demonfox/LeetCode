@@ -20,6 +20,7 @@
 0020. Valid Parentheses
 0021. Merge Two Sorted Lists
 0022. Generate Parentheses
+0023. Merge k Sorted Lists
 0024. Swap Nodes in Pairs
 0025. Reverse Nodes in k-Group
 0026. Remove Duplicates From Sorted Array
@@ -44,6 +45,7 @@
 0076. Minimum Window Substring
 0078. Subsets
 0079. Word Search
+0084. Largest Rectangle in Histogram
 0088. Merge Sorted Array
 0091. Decode Ways
 0094. Binary Tree Inorder Traversal
