@@ -31,6 +31,8 @@
 0034. Find First and Last Position of Element in Sorted Array
 0036. Valid Sudoku
 0038. Count and Say
+0041. First Missing Positive
+0049. Group Anagrams
 0050. Pow(x, n)
 0051. N-Queens
 0052. N-Queens II

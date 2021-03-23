@@ -54,5 +54,6 @@ public class BTfromPostIn {
     public static void Run() {
         BTfromPostIn b = new BTfromPostIn();
         TreeNode r = b.buildTree(new int[]{9,3,15,20,7}, new int[]{9,15,7,20,3});
+        System.out.println(r.val);
     }
 }

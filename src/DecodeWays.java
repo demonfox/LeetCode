@@ -17,24 +17,14 @@ public class DecodeWays {
   private int count;
   public int numDecodings(String s) {
     count = 0;
-    //recursion(s, 0);
     dp(s);
     return count;
   }
 
-  private void recursion(String s, int start) {
-    if (start >= s.length()) {
-      count++;
-      return;
-    }
-    char c1 = s.charAt(start);
-    if (c1 >= '1' && c1<='9')
-      recursion(s, start+1);
-    if (start == s.length()-1)
-      return;
-    char c2 = s.charAt(start+1);
-    if ((c1=='1' && c2 >= '0' && c2<='9') || (c1=='2' && c2 >= '0' && c2<='6'))
-      recursion(s, start+2);
+  public int numDecodings2(String s) {
+    count = 0;
+    recursion(s, 0);
+    return count;
   }
 
   public void dp(String s) {
@@ -50,6 +40,21 @@ public class DecodeWays {
         ways[i] += ways[i-2];
     }
     count = ways[s.length()];
+  }
+  
+  private void recursion(String s, int start) {
+    if (start >= s.length()) {
+      count++;
+      return;
+    }
+    char c1 = s.charAt(start);
+    if (c1 >= '1' && c1<='9')
+      recursion(s, start+1);
+    if (start == s.length()-1)
+      return;
+    char c2 = s.charAt(start+1);
+    if ((c1=='1' && c2 >= '0' && c2<='9') || (c1=='2' && c2 >= '0' && c2<='6'))
+      recursion(s, start+2);
   }
 
   public static void Run() {

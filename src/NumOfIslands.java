@@ -4,7 +4,6 @@
 // vertically. You may assume all four edges of the grid are all surrounded by water.
 
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 public class NumOfIslands {

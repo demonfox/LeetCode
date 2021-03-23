@@ -16,6 +16,7 @@ public class LRUCache {
   public LRUCache(int capacity) {
     maxSize = capacity;
     map = new LinkedHashMap<Integer, Integer>(capacity, .75F, true){
+      private static final long serialVersionUID = 1L;
       protected boolean removeEldestEntry(Map.Entry<Integer, Integer> eldest) {
         return size() > maxSize;
       }

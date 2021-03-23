@@ -43,5 +43,6 @@ public class BTfromPreIn {
     public static void Run() {
         BTfromPreIn b = new BTfromPreIn();
         TreeNode r = b.buildTree(new int[]{3,9,20,15,7}, new int[]{9,3,15,20,7});
+        System.out.println(r.val);
     }
 }
