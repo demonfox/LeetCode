@@ -32,6 +32,7 @@
 0036. Valid Sudoku
 0038. Count and Say
 0041. First Missing Positive
+0042. Trapping Rain Water
 0048. Rotate Image
 0049. Group Anagrams
 0050. Pow(x, n)
