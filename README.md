@@ -33,12 +33,14 @@
 0038. Count and Say
 0041. First Missing Positive
 0042. Trapping Rain Water
+0046. Permutations
 0048. Rotate Image
 0049. Group Anagrams
 0050. Pow(x, n)
 0051. N-Queens
 0052. N-Queens II
 0053. Maximum Subarray
+0054. Spiral Matrix
 0066. Plus One
 0067. Add Binary
 0069. Sqrt(x)
