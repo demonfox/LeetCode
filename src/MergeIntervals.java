@@ -3,10 +3,6 @@
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Map;
-import java.util.SortedMap;
-import java.util.TreeMap;
-
 
 public class MergeIntervals {
   public int[][] merge(int[][] intervals) {
