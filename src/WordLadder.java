@@ -49,13 +49,6 @@ public class WordLadder {
             } else if ((currStepCount > 0 && stepCount < 0) || (currStepCount < 0 && stepCount > 0))
               // we have met in the middle, so return the proper stepCount
               return Math.abs(currStepCount - stepCount);
-
-            // if (sb.toString().equals(endWord))
-            // return nextStepCount;
-            // else {
-            // visited.put(sb.toString(), nextStepCount);
-            // q.add(sb.toString());
-            // }
           }
         }
         sb.replace(0, sb.length(), currWord);
