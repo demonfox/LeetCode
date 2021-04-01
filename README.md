@@ -90,6 +90,7 @@
 0136. Single Number
 0138. Copy List with Random Pointer
 0139. Word Break
+0140. Word Break II
 0141. Linked List Cycle
 0142. Linked List Cycle II
 0146. LRU Cahce
@@ -99,6 +100,7 @@
 0167. Two Sum II - Input array is sorted
 0168. Excel Sheet Column Title
 0169. Majority Element
+0171. Excel Sheet Column Number
 0188. Best Time to Buy and Sell Stock IV
 0191. Number of 1 Bits
 0200. Number of Islands
