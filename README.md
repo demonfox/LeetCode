@@ -94,6 +94,8 @@
 0141. Linked List Cycle
 0142. Linked List Cycle II
 0146. LRU Cahce
+0149. Max Points on a Line
+0150. Evaluate Reverse Polish Notation
 0152. Maximum Product Subarray
 0155. Min Stack
 0160. Intersection of Two Linked Lists
