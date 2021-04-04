@@ -94,6 +94,7 @@
 0141. Linked List Cycle
 0142. Linked List Cycle II
 0146. LRU Cahce
+0148. Sort List
 0149. Max Points on a Line
 0150. Evaluate Reverse Polish Notation
 0152. Maximum Product Subarray
@@ -107,6 +108,7 @@
 0191. Number of 1 Bits
 0200. Number of Islands
 0202. Happy Number
+0204. Count Primes
 0206. Reverse Linked List
 0207. Course Schedule
 0208. Implement Trie (Prefix Tree)
@@ -124,4 +126,5 @@
 0653. Two Sum IV - Input is a BST
 0655. Print Binary Tree
 0703. Kth Largest Element in a Stream
+0876. Middle of the Linked List
 1143. Longest Common Subsequence

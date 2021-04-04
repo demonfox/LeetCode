@@ -8,7 +8,6 @@ import java.util.Stack;
 
 public class EvalRPN {
   public int evalRPN(String[] tokens) {
-    int result = 0;
     Stack<Integer> stack = new Stack<Integer>();
     for (String s : tokens) {
       if (!s.equals("+") && !s.equals("-") && !s.equals("*") && !s.equals("/")) {
