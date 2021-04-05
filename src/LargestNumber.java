@@ -1,12 +1,7 @@
 // Given a list of non-negative integers nums, arrange them such that they form the largest number.
 // Note: The result may be very large, so you need to return a string instead of an integer.
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
 
 public class LargestNumber {
   public String largestNumber(int[] nums) {
@@ -14,6 +9,9 @@ public class LargestNumber {
     for (int i=0; i<nums.length; i++)
       strs[i] = String.valueOf(nums[i]);
 
+    // The key for this algorithm to be correct is to show the transitivity of this String
+    // comparision logic, that is, if s1 > s2 (in the following new sense), and s2 > s3, 
+    // then s1 must > s3.
     Arrays.sort(strs, (s1, s2) -> {
       String s1s2 = s1 + s2;
       String s2s1 = s2 + s1;
