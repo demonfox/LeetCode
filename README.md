@@ -108,6 +108,8 @@
 0172. Factorial Trailing Zeroes
 0179. Largest Number
 0188. Best Time to Buy and Sell Stock IV
+0189. Rotate Array
+0190. Reverse Bits
 0191. Number of 1 Bits
 0198. House Robber
 0200. Number of Islands
