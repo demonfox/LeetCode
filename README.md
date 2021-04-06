@@ -120,6 +120,9 @@
 0208. Implement Trie (Prefix Tree)
 0212. Word Search II
 0215. Kth Largest Element
+0217. Contains Duplicate
+0219. Contains Duplicate II
+0220. Contains Duplicate III
 0225. Implement Stack using Queues
 0231. Power of Two
 0232. Implment Queue using Stacks
