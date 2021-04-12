@@ -52,6 +52,7 @@
 0070. Climb Stairs
 0072. Edit Distance
 0073. Set Matrix Zeroes
+0074. Search a 2D Matrix
 0075. Sort Colors
 0076. Minimum Window Substring
 0078. Subsets
@@ -133,6 +134,7 @@
 0237. Delete Node in a Linked List
 0238. Product of Array Except Self
 0239. Sliding Window Maximum
+0240. Search a 2D Matrix II
 0242. Valid Anagram
 0300. Longest Increasing Subsequence
 0322. Coin Change
