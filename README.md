@@ -136,6 +136,7 @@
 0239. Sliding Window Maximum
 0240. Search a 2D Matrix II
 0242. Valid Anagram
+0268. Missing Number
 0300. Longest Increasing Subsequence
 0322. Coin Change
 0338. Counting Bits
