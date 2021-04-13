@@ -30,6 +30,7 @@
 0033. Search in Rotated Sorted Array
 0034. Find First and Last Position of Element in Sorted Array
 0036. Valid Sudoku
+0037. Sudoku Solver
 0038. Count and Say
 0041. First Missing Positive
 0042. Trapping Rain Water
@@ -101,6 +102,7 @@
 0152. Maximum Product Subarray
 0155. Min Stack
 0160. Intersection of Two Linked Lists
+0162. Find Peak Element
 0163. Missing Ranges
 0167. Two Sum II - Input array is sorted
 0168. Excel Sheet Column Title
