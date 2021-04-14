@@ -141,6 +141,7 @@
 0268. Missing Number
 0279. Perfect Squares
 0283. Move Zeroes
+0287. Find the Duplicate Number
 0300. Longest Increasing Subsequence
 0322. Coin Change
 0338. Counting Bits
