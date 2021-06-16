@@ -30,7 +30,7 @@ public class GasStation {
   //        g[k+1] - c[k+1] + g[k+2] - c[k+2] >= 0
   //        ...
   //        g[k+1] - c[k+1] + ... + g[n-1] - c[n-1] >= 0 (this means the car can start from k+1 and travel to n-1)
-  // Second, g[k+1] - c[k+1] + ... + g[n-1] - c[n-1] + g[0] - c[0] + ... g[j] - c[j] for any j <= k
+  // Second, g[k+1] - c[k+1] + ... + g[n-1] - c[n-1] + g[0] - c[0] + ... g[j] - c[j] >= 0 for any j <= k
   // Well, for the first point, since g[0] - c[0] + g[1] - c[1] + ... + g[i] - c[i] is at its minimum
   // when i = k, then g[0] - c[0] + g[1] - c[1] + ... + g[k+1] - c[k+1] must be greater than or equal to
   // g[0] - c[0] + g[1] - c[1] + ... + g[k] - c[k]

@@ -7,7 +7,9 @@
 // Any live cell with two or three live neighbors lives on to the next generation.
 // Any live cell with more than three live neighbors dies, as if by over-population.
 // Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
-// The next state is created by applying the above rules simultaneously to every cell in the current state, where births and deaths occur simultaneously. Given the current state of the m x n grid board, return the next state.
+// The next state is created by applying the above rules simultaneously to every cell in the current state, 
+// where births and deaths occur simultaneously. 
+// Given the current state of the m x n grid board, return the next state.
 
 public class GameOfLife {
   // The idea is to encode the current state and the next state using a unique value such that
