@@ -10,16 +10,16 @@ public class MissingRanges {
     int currLower = lower;
     for (int i = 0; i < nums.length; i++) {
       if (nums[i] > currLower) {
-        result.add(constructRnage(currLower, nums[i]));
+        result.add(constructRange(currLower, nums[i]));
       }
       currLower = nums[i] + 1;
     }
     if (upper >= currLower)
-      result.add(constructRnage(currLower, upper + 1));
+      result.add(constructRange(currLower, upper + 1));
     return result;
   }
 
-  private String constructRnage(int currLower, int i) {
+  private String constructRange(int currLower, int i) {
     if (currLower + 1 == i)
       return String.valueOf(currLower);
     return String.valueOf(currLower) + "->" + String.valueOf(i - 1);
