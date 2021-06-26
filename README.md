@@ -147,6 +147,7 @@
 0307. Range Sum Query - Mutable
 0315. Count of Smaller Numbers After Self
 0322. Coin Change
+0326. Power of Three
 0338. Counting Bits
 0344. Reverse String
 0653. Two Sum IV - Input is a BST
