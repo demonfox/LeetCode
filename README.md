@@ -72,6 +72,7 @@
 0105. Construct Binary Tree from Preorder and Inorder Traversal
 0106. Construct Binary Tree from Inorder and Postorder Traversal
 0108. Convert Sorted Array to Binary Search Tree
+0110. Balanced Binary Tree
 0111. Minimum Depth of Binary Tree
 0112. Path Sum
 0113. Path Sum II
