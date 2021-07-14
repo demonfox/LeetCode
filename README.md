@@ -142,6 +142,7 @@
 0242. Valid Anagram
 0268. Missing Number
 0279. Perfect Squares
+0280. Wiggle Sort
 0283. Move Zeroes
 0287. Find the Duplicate Number
 0289. Game of Life
@@ -149,9 +150,11 @@
 0307. Range Sum Query - Mutable
 0315. Count of Smaller Numbers After Self
 0322. Coin Change
+0324. Wiggle Sort II
 0326. Power of Three
 0338. Counting Bits
 0344. Reverse String
+0347. Top K Frequent Elements
 0449. Serialize and Deseralize BST
 0653. Two Sum IV - Input is a BST
 0655. Print Binary Tree
