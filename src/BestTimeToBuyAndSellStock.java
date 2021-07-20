@@ -21,6 +21,7 @@ public class BestTimeToBuyAndSellStock {
     return maxprofit;
   }
 
+  // using dynamic programming
   public int maxProfit2(int[] prices) {
     int result = 0;
     int[][] profits = new int[prices.length][3];

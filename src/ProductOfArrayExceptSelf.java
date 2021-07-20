@@ -4,6 +4,8 @@
 // Solve it in O(n) time complexity and O(1) constant space complexity.
 // (The output array does not count as extra space for space complexity analysis.)
 
+import java.util.Arrays;
+
 public class ProductOfArrayExceptSelf {
   public int[] productExceptSelf(int[] nums) {
     int[] result = new int[nums.length];
@@ -21,13 +23,7 @@ public class ProductOfArrayExceptSelf {
 
   public static void Run() {
     ProductOfArrayExceptSelf p = new ProductOfArrayExceptSelf();
-    int[] result = p.productExceptSelf(new int[] { 1, 2, 3, 4 });
-    for (int i : result)
-      System.out.print(i + " ");
-    System.out.println();
-    result = p.productExceptSelf(new int[] { -1, 1, 0, -3, 3 });
-    for (int i : result)
-      System.out.print(i + " ");
-    System.out.println();
+    System.out.println(Arrays.toString(p.productExceptSelf(new int[] { 1, 2, 3, 4 })));
+    System.out.println(Arrays.toString(p.productExceptSelf(new int[] { -1, 1, 0, -3, 3 })));
   }
 }

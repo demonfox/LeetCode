@@ -155,6 +155,8 @@
 0338. Counting Bits
 0344. Reverse String
 0347. Top K Frequent Elements
+0349. Intersection of Two Arrays
+0350. Intersection of Two Arrays II
 0449. Serialize and Deseralize BST
 0653. Two Sum IV - Input is a BST
 0655. Print Binary Tree
