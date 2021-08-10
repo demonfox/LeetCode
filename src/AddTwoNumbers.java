@@ -6,15 +6,6 @@
 // Output: 7 -> 0 -> 8
 // ------------------------------------------ //
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
-
 public class AddTwoNumbers {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
