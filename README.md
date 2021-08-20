@@ -165,6 +165,7 @@
 0371. Sum of Two Integers
 0378. Kth Smallest Element in a Sorted Matrix
 0380. Insert Delete GetRandom O(1)
+0384. Shuffle an Array
 0387. First Unique Character in a String
 0412. Fizz Buzz
 0449. Serialize and Deseralize BST
