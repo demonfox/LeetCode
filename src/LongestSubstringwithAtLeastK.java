@@ -34,7 +34,7 @@ public class LongestSubstringwithAtLeastK {
         // the idea is, with the current iteration, we are looking for those substring with
         // "currUnique" number of unique characters. 
         // If we have found a window that
-        // 1) contains "currUnique" number of characters;
+        // 1) contains "currUnique" number of unique characters;
         // 2) each of these "currUnique" characters has a count >= k
         // then we update the result with the length of this current window
         // We are strictly looking for windows that contains exactly "currUnique" number
