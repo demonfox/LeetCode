@@ -19,7 +19,7 @@ public class CombinationSum {
     return result;
   }
 
-  void dfs(int[] candidates, int target, int sIndex, LinkedList<Integer> currCombo, List<List<Integer>> result) {
+  private void dfs(int[] candidates, int target, int sIndex, LinkedList<Integer> currCombo, List<List<Integer>> result) {
     if (target == 0) {
       List<Integer> newEntry = new LinkedList<Integer>();
       newEntry.addAll(currCombo);
