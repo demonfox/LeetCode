@@ -2,7 +2,7 @@ import java.lang.reflect.InvocationTargetException;
 
 public class Runner {
     public static void main(String[] args) {
-        Run("BinaryTreeLevelOrderTraversal");
+        Run("LengthOfLastWord");
     }
 
     private static void Run(String problem) {
