@@ -38,6 +38,7 @@
 0040. Combination Sum II
 0041. First Missing Positive
 0042. Trapping Rain Water
+0045. Jump Game II
 0046. Permutations
 0048. Rotate Image
 0049. Group Anagrams
