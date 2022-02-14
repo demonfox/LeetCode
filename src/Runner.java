@@ -2,7 +2,7 @@ import java.lang.reflect.InvocationTargetException;
 
 public class Runner {
     public static void main(String[] args) {
-        Run("CombinationSumII");
+        Run("PascalTriangleII");
     }
 
     private static void Run(String problem) {
