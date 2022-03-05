@@ -51,6 +51,7 @@
 0055. Jump Game
 0056. Merge Intervals
 0058. Length of Last Word
+0061. Rotate List
 0062. Unique Paths
 0063. Unique Paths II
 0064. Minimum Path Sum
