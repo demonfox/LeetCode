@@ -135,6 +135,7 @@
 0202. Happy Number
 0203. Remove Linked List Elements
 0204. Count Primes
+0205. Isomorphic Strings
 0206. Reverse Linked List
 0207. Course Schedule
 0208. Implement Trie (Prefix Tree)
