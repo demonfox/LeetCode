@@ -160,6 +160,7 @@
 0239. Sliding Window Maximum
 0240. Search a 2D Matrix II
 0242. Valid Anagram
+0257. Binary Tree Paths
 0268. Missing Number
 0279. Perfect Squares
 0280. Wiggle Sort
