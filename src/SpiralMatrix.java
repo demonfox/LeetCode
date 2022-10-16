@@ -8,9 +8,8 @@ public class SpiralMatrix {
     // Let's view the matrix from a layered perspective: from the outer-most
     // layer going inwards. The result is obviously formed by traversing through
     // each layer clockwise from the top-left corner (say (r0, c0)) to the
-    // bottom-right
-    // corner (say (r1, c1)). And then we check for some conditions to see if there
-    // are two more edges (i.e. the bottom edge and the left edge) to go.
+    // bottom-right corner (say (r1, c1)). And then we check for some conditions to 
+    // see if there are two more edges (i.e. the bottom edge and the left edge) to go.
     int m = matrix.length;
     int n = matrix[0].length;
     int r0 = 0;

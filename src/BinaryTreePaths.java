@@ -4,27 +4,33 @@
 import java.util.*;
 
 public class BinaryTreePaths {
-  private void helper(TreeNode node, String path, List<String> result) {
-    path += Integer.toString(node.val);
+  private void helper(TreeNode node, StringBuilder path, List<String> result) {
+    String val = Integer.toString(node.val);
+    path.append(val);
     boolean leftIsNull = false, rightIsNull = false;
     
     if (node.left != null) {
-      String lPath = new String(path + "->");
-      helper(node.left, lPath, result);
+      int sentinel = path.length();
+      path.append("->");
+      helper(node.left, path, result);
+      path.delete(sentinel, sentinel+2);
     } else {
       leftIsNull = true;
     }
 
     if (node.right != null) {
-      String rPath = new String(path + "->");
-      helper(node.right, rPath, result);
+      int sentinel = path.length();
+      path.append("->");
+      helper(node.right, path, result);
+      path.delete(sentinel, sentinel+2);
     } else {
       rightIsNull = true;
     }
 
     if (leftIsNull && rightIsNull) {
-      result.add(path);
+      result.add(path.toString());
     }
+    path.delete(path.length() - val.length(), path.length());
   }
 
   public List<String> binaryTreePaths(TreeNode root) {
@@ -32,7 +38,7 @@ public class BinaryTreePaths {
     if (root == null)
       return result;
 
-    helper(root, "", result);
+    helper(root, new StringBuilder(""), result);
     return result;
   }
 
