@@ -68,6 +68,7 @@
 0078. Subsets
 0079. Word Search
 0080. Remove Duplicates from Sorted Array II
+0081. Search in Rotated Sorted Array II
 0083. Remove Duplicates from Sorted List
 0084. Largest Rectangle in Histogram
 0088. Merge Sorted Array
@@ -161,6 +162,7 @@
 0240. Search a 2D Matrix II
 0242. Valid Anagram
 0257. Binary Tree Paths
+0258. Add Digits
 0268. Missing Number
 0279. Perfect Squares
 0280. Wiggle Sort
