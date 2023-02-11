@@ -73,6 +73,7 @@
 0084. Largest Rectangle in Histogram
 0088. Merge Sorted Array
 0091. Decode Ways
+0092. Reverse Linked List II
 0094. Binary Tree Inorder Traversal
 0098. Validate Binary Search Tree
 0099. Recover Binary Search Tree
@@ -163,6 +164,7 @@
 0242. Valid Anagram
 0257. Binary Tree Paths
 0258. Add Digits
+0263. Ugly Number
 0268. Missing Number
 0279. Perfect Squares
 0280. Wiggle Sort
