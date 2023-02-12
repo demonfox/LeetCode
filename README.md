@@ -166,6 +166,7 @@
 0258. Add Digits
 0263. Ugly Number
 0268. Missing Number
+0278. First Bad Version
 0279. Perfect Squares
 0280. Wiggle Sort
 0283. Move Zeroes
