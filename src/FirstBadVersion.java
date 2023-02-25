@@ -13,6 +13,9 @@ public class FirstBadVersion {
     left = 1;
     right = n;
 
+    if (isBadVersion(1))
+      return 1;
+    
     while (left < right) {
       if (left == right -1)
         break;
