@@ -205,5 +205,6 @@
 0887. Super Egg Drop
 0917. Reverse Only Letters
 0978. Longest Turbulent Subarray
+1008. Construct Binary Search Tree from Preorder Traversal
 1143. Longest Common Subsequence
 1189. Maximum Number of Balloons
