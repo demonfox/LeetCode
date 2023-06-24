@@ -173,8 +173,10 @@
 0287. Find the Duplicate Number
 0289. Game of Life
 0290. Word Pattern
+0292. Nim Game
 0297. Serialize and Deserialize Binary Tree
 0300. Longest Increasing Subsequence
+0303. Range Sum Query - Immutable
 0307. Range Sum Query - Mutable
 0315. Count of Smaller Numbers After Self
 0322. Coin Change
