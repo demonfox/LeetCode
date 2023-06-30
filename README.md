@@ -187,6 +187,7 @@
 0338. Counting Bits
 0340. Longest Substring With At Most K Distinct Characters
 0341. Flatten Nested List Iterator
+0342. Power of Four
 0344. Reverse String
 0347. Top K Frequent Elements
 0349. Intersection of Two Arrays
