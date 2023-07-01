@@ -189,6 +189,7 @@
 0341. Flatten Nested List Iterator
 0342. Power of Four
 0344. Reverse String
+0345. Reverse Vowels of a String
 0347. Top K Frequent Elements
 0349. Intersection of Two Arrays
 0350. Intersection of Two Arrays II
