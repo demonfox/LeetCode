@@ -196,6 +196,7 @@
 0350. Intersection of Two Arrays II
 0367. Valid Perfect Square
 0371. Sum of Two Integers
+0374. Guess Number Higher or Lower
 0378. Kth Smallest Element in a Sorted Matrix
 0380. Insert Delete GetRandom O(1)
 0384. Shuffle an Array
