@@ -19,12 +19,15 @@
 public class GuessNumber {
 
   private int numPicked = 0;
+  
   public void init(int numPicked) {
     this.numPicked = numPicked;
   }
+  
   private int guess(int num) {
     return (num == this.numPicked) ? 0 : ((num > this.numPicked) ? -1 : 1);
   }
+
   public int guessNumber(int n) {
     int l = 1, r = n;
     int m;

@@ -199,6 +199,7 @@
 0374. Guess Number Higher or Lower
 0378. Kth Smallest Element in a Sorted Matrix
 0380. Insert Delete GetRandom O(1)
+0383. Ransom Note
 0384. Shuffle an Array
 0387. First Unique Character in a String
 0395. Longest Substring with At Least K Repeating Characters
