@@ -206,6 +206,7 @@
 0389. Find the Difference
 0392. Is Subsequence
 0395. Longest Substring with At Least K Repeating Characters
+0401. Binary Watch
 0404. Sum of Left Leaves
 0412. Fizz Buzz
 0449. Serialize and Deseralize BST
