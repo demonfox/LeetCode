@@ -35,10 +35,10 @@ public class BinaryWatch {
     for (int i=startIndex; i<hours.length + minutes.length; i++) {
       if (i < hours.length) {
         if ((hours[i] + hour) < 12)
-          helper(result, hour + hours[i], minute, turnedOn-1, startIndex+1);
+          helper(result, hour + hours[i], minute, turnedOn-1, i+1);
       } else {
         if ((minutes[i - hours.length] + minute) < 60)
-          helper(result, hour, minute + minutes[i - hours.length], turnedOn-1, startIndex+1);
+          helper(result, hour, minute + minutes[i - hours.length], turnedOn-1, i+1);
       }
     }
   }
