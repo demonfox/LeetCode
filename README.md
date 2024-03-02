@@ -41,6 +41,7 @@
 0043. Multiply Strings
 0045. Jump Game II
 0046. Permutations
+0047. Permutations II
 0048. Rotate Image
 0049. Group Anagrams
 0050. Pow(x, n)
