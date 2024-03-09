@@ -62,6 +62,7 @@
 0067. Add Binary
 0069. Sqrt(x)
 0070. Climb Stairs
+0071. Simplify Path
 0072. Edit Distance
 0073. Set Matrix Zeroes
 0074. Search a 2D Matrix
