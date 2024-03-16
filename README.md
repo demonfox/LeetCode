@@ -216,6 +216,7 @@
 0412. Fizz Buzz
 0414. Third Maximum Number
 0415. Add Strings
+0434. Number of Segments in a String
 0448. Find All Numbers Disappeared in an Array
 0449. Serialize and Deseralize BST
 0454. 4Sum II
