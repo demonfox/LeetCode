@@ -9,12 +9,11 @@ public class ArrangeCoins {
     // if we just write 8n, then it is an integer and that can overflow whenre 8n > INT_MAX
     // so we need to write it like this:
     int result = (int)((-1 + Math.sqrt(1.0+8.0*n)) / 2);
-    System.out.println(Double.MAX_VALUE);
+    // System.out.println(Double.MAX_VALUE); // which is roughly 1.7976931348623157E308
     return result;
 
+    // or another way that may look safer is:
     // (-1 + sqrt(1+8n))/2 = sqrt(n + 1/8) * sqrt(2) - 0.5
-    
-    // the reason is when n == Integer.MAX_VALUE, n + 1/8 s
     // return (int)Math.sqrt(n + 1/8) * Math.sqrt(2) - 0.5;
   }
 
