@@ -226,6 +226,7 @@
 0461. Hamming Distance
 0463. Island Perimeter
 0476. Number Complement
+0482. License Key Formatting
 0485. Max Consecutive Ones
 0653. Two Sum IV - Input is a BST
 0655. Print Binary Tree
