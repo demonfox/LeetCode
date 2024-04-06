@@ -228,6 +228,7 @@
 0476. Number Complement
 0482. License Key Formatting
 0485. Max Consecutive Ones
+0492. Construct the Rectangle
 0653. Two Sum IV - Input is a BST
 0655. Print Binary Tree
 0703. Kth Largest Element in a Stream
