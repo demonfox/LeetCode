@@ -233,6 +233,7 @@
 0496. Next Greater Element I
 0500. Keyboard Row
 0501. Find Mode in Binary Search Tree
+0506. Relative Ranks
 0653. Two Sum IV - Input is a BST
 0655. Print Binary Tree
 0703. Kth Largest Element in a Stream
