@@ -238,6 +238,7 @@
 0507. Perfect Number
 0509. Fibonacci Number
 0520. Detect Capital
+0521. Longest Uncommon Subsequence I
 0653. Two Sum IV - Input is a BST
 0655. Print Binary Tree
 0703. Kth Largest Element in a Stream
