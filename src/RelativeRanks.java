@@ -59,14 +59,12 @@ public class RelativeRanks {
   }
 
   public static void Run () {
-    // test case 1
     int[] score = {5, 4, 3, 2, 1};
     String[] result = new RelativeRanks().findRelativeRanks(score);
     for (int i = 0; i< result.length; i++) {
       System.out.println(result[i]);
     }
 
-    // test case 2
     score = new int[] {10, 3, 8, 9, 4};
     result = new RelativeRanks().findRelativeRanks(score);
     for (int i = 0; i< result.length; i++) {

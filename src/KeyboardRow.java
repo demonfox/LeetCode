@@ -54,7 +54,6 @@ public class KeyboardRow {
   }
 
   public static void Run() {
-    // generate test case for findWords
     String[] words = {"Hello", "Alaska", "Dad", "Peace"};
     String[] expected = {"Alaska", "Dad"};
 

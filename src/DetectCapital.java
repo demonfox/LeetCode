@@ -16,7 +16,6 @@ public class DetectCapital {
   }
 
   public static void Run() {
-    // generate 5 test cases for detectCapitalUse
     DetectCapital dc = new DetectCapital();
     System.out.println(dc.detectCapitalUse("USA"));
     System.out.println(dc.detectCapitalUse("leetcode"));

@@ -43,14 +43,12 @@ public class FindModeInBST {
   }
 
   public static void Run() {
-    // generate test case for findMode
     TreeNode root = new TreeNode(1);
     root.right = new TreeNode(2);
     root.right.left = new TreeNode(2);
     
     System.out.println("Modes are " + Arrays.toString((new FindModeInBST()).findMode(root)));
 
-    // generate another test case for findMode
     root = new TreeNode(5);
     root.left = new TreeNode(3);
     root.right = new TreeNode(8);

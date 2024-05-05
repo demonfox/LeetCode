@@ -10,7 +10,6 @@ public class LongestUncommonSubsequenceI {
   }
 
   public static void Run() {
-    // generate 5 test cases for findLUSlength
     LongestUncommonSubsequenceI lus = new LongestUncommonSubsequenceI();
     String[] a = {"aba", "cdc", "abcde", "ace", "abc", "aaa"};
     String[] b = {"cdc", "dcba", "edcba", "abc", "abcd", "aaa"};

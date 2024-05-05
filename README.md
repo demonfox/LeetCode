@@ -73,6 +73,7 @@
 0079. Word Search
 0080. Remove Duplicates from Sorted Array II
 0081. Search in Rotated Sorted Array II
+0082. Remove Duplicates from Sorted List II
 0083. Remove Duplicates from Sorted List
 0084. Largest Rectangle in Histogram
 0088. Merge Sorted Array

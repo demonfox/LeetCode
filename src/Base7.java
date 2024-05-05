@@ -49,7 +49,6 @@ public class Base7 {
   }
 
   public static void Run() {
-    // test case for convertToBase7
     Base7 base7 = new Base7();
     System.out.println(base7.convertToBase7(14));
     System.out.println(base7.convertToBase7(100));

@@ -31,12 +31,10 @@ public class NextGreaterElementI {
   }
 
   public static void Run() {
-    // generate test case for nextGreaterElement
     int[] nums1 = {4,1,2};
     int[] nums2 = {1,3,4,2};
     int[] expected = {-1,3,-1};
 
-    // run test case for nextGreaterElement
     int[] result = new NextGreaterElementI().nextGreaterElement(nums1, nums2);
     for (int i=0; i<result.length; i++) {
       if (result[i] != expected[i]) {

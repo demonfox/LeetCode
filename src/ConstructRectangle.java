@@ -18,9 +18,7 @@ public class ConstructRectangle {
   }
 
   public static void Run() {
-    // gerenate test case for constructRectangle
     int[] testCases = {1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 37, 122122};
-    // test cases
     for (int i = 0; i < testCases.length; i++) {
       int area = testCases[i];
       int[] result = new ConstructRectangle().constructRectangle(area);

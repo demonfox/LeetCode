@@ -21,7 +21,6 @@ public class FibonacciNumber {
   }
 
   public static void Run() {
-    // generate 5 test cases for fib
     FibonacciNumber fib = new FibonacciNumber();
     System.out.println(fib.fib(3));
     System.out.println(fib.fib(4));
