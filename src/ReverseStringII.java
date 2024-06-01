@@ -14,6 +14,30 @@ public class ReverseStringII {
     StringBuilder result = new StringBuilder();
     StringBuilder temp = new StringBuilder();
     int start, mid, end;
+    start = -2 * k;
+    end = -1;
+    mid = -k;
+
+    do {
+      start += 2 * k;
+      end += 2 * k;
+      mid += 2 * k;
+      if (start >= s.length())
+        break;
+      if (mid >= s.length()) {
+        mid = s.length();
+        end = -1;
+      } else if (end >= s.length()) {
+        end = s.length()-1;
+      }
+      temp.setLength(0);
+      temp.append(s.substring(start, mid));
+      result.append(temp.reverse());
+      if (end > 0)
+        result.append(s.substring(mid, end+1));
+    } while (true);
+
+    /*
     start = 0;
     end = 2 * k - 1;
     mid = (end + start)/2 + 1;
@@ -23,6 +47,7 @@ public class ReverseStringII {
     } else if (end >= s.length()) {
       end = s.length() - 1;
     }
+
     while (true) {
       temp.setLength(0);
       temp.append(s.subSequence(start, mid));
@@ -41,6 +66,7 @@ public class ReverseStringII {
         end = s.length() - 1;
       }
     }
+    */
 
     return result.toString();
   }

@@ -243,6 +243,7 @@
 0530. Minimum Absolute Difference in BST
 0541. Reverse String II
 0543. Diameter of Binary Tree
+0551. Student Attendance Record I
 0653. Two Sum IV - Input is a BST
 0655. Print Binary Tree
 0703. Kth Largest Element in a Stream
