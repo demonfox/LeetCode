@@ -16,9 +16,13 @@ public class ReverseWordsInString {
   }
 
   public static void Run() {
-    // generate a test case for reverseWords
+    String s = "Let's take LeetCode contest";
+    String expected = "s'teL ekat edoCteeL tsetnoc";
+
     ReverseWordsInString r = new ReverseWordsInString();
-    System.out.println(r.reverseWords("Let's take LeetCode contest"));
-    System.out.println(r.reverseWords("Mr Ding"));
+    String actual = r.reverseWords(s);
+    if (actual.equals(expected)) {
+      System.out.println("Test for reverseWords passed.");
+    }
   }
 }

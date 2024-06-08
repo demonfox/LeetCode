@@ -67,6 +67,6 @@ public class Codec {
     n7.right = n8;
     String data = c.serialize(n1);
     System.out.println(data);
-    TreeNode treeRecon = c.deserialize(data);
+    //TreeNode treeRecon = c.deserialize(data);
   }
 }
