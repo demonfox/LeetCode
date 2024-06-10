@@ -76,6 +76,7 @@
 0082. Remove Duplicates from Sorted List II
 0083. Remove Duplicates from Sorted List
 0084. Largest Rectangle in Histogram
+0086. Partition List
 0088. Merge Sorted Array
 0091. Decode Ways
 0092. Reverse Linked List II
