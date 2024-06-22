@@ -250,6 +250,7 @@
 0559. Maximum Depth of N-ary Tree
 0563. Binary Tree Tilt
 0566. Reshape the Matrix
+0572. Subtree of Another tree
 0653. Two Sum IV - Input is a BST
 0655. Print Binary Tree
 0703. Kth Largest Element in a Stream
