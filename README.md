@@ -256,6 +256,7 @@
 0589. N-ary Tree Preorder Traversal
 0590. N-ary Tree Postorder Traversal
 0594. Longest Harmonious Subsequence
+0599. Minimum Index Sum of Two Lists
 0653. Two Sum IV - Input is a BST
 0655. Print Binary Tree
 0703. Kth Largest Element in a Stream
