@@ -261,6 +261,7 @@
 0599. Minimum Index Sum of Two Lists
 0605. Can Place Flowers
 0617. Merge Two Binary Trees
+0628. Maximum Product of Three Numbers
 0653. Two Sum IV - Input is a BST
 0655. Print Binary Tree
 0703. Kth Largest Element in a Stream
