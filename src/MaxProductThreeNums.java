@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 
 public class MaxProductThreeNums {
   
-  public int maximumProduct(int[] nums) {
+  public int maximumProduct1(int[] nums) {
     if (nums.length == 3) return nums[0] * nums[1] * nums[2];
     Arrays.sort(nums);
     int result = Integer.MIN_VALUE;
@@ -21,65 +21,81 @@ public class MaxProductThreeNums {
     }
     return result;
   }
-  // this method using heap in incomplete; it's a bit messy, not as clean as the first one, but it should be faster when completed
-  public int maximumProduct1(int[] nums) {
+
+  public int maximumProduct(int[] nums) {
     if (nums.length == 3) return nums[0] * nums[1] * nums[2];
-    PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>();
-    PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
+    PriorityQueue<Integer> findMaxPositive = new PriorityQueue<Integer>();
+    PriorityQueue<Integer> findMaxNegative = new PriorityQueue<>();
+    PriorityQueue<Integer> findMinNegative = new PriorityQueue<>(Comparator.reverseOrder());
     for (int i=0; i<nums.length; i++) {
       if (nums[i] >= 0) {
-        if (minHeap.size() < 3) {
-          minHeap.add(nums[i]);
+        if (findMaxPositive.size() < 3) {
+          findMaxPositive.add(nums[i]);
         } else {
-          if (nums[i] > minHeap.peek()) {
-            minHeap.poll();
-            minHeap.add(nums[i]);
+          if (nums[i] > findMaxPositive.peek()) {
+            findMaxPositive.poll();
+            findMaxPositive.add(nums[i]);
           }
         }
       } else {
-        if (maxHeap.size() < 3) {
-          maxHeap.add(nums[i]);
+        if (findMaxNegative.size() < 3) {
+          findMaxNegative.add(nums[i]);
         } else {
-          if (nums[i] < maxHeap.peek()) {
-            maxHeap.poll();
-            maxHeap.add(nums[i]);
+          if (nums[i] > findMaxNegative.peek()) {
+            findMaxNegative.poll();
+            findMaxNegative.add(nums[i]);
+          }
+        }
+
+        if (findMinNegative.size() < 2) {
+          findMinNegative.add(nums[i]);
+        } else {
+          if (nums[i] < findMinNegative.peek()) {
+            findMinNegative.poll();
+            findMinNegative.add(nums[i]);
           }
         }
       }
     }
     int result = Integer.MIN_VALUE;
-    int productOfTwo = Integer.MIN_VALUE;
-    if (minHeap.size() == 3) {
-      int temp1 = minHeap.poll();
-      int temp2 = minHeap.poll();
-      int temp3 = minHeap.poll();
-      if (temp2 > temp3) {
-        result = temp2;
-        productOfTwo = temp1 * temp3;
-      } else {
-        result = temp3;
-        productOfTwo = temp1 * temp2;
-      }
-    } else if(minHeap.size() == 2) {
-      minHeap.poll();
-      result = minHeap.poll();
-    } else if (minHeap.size() == 1) {
-      result = minHeap.poll();
+    int maxPositive = Integer.MIN_VALUE;
+    if (findMaxPositive.size() == 3) {
+      int temp1 = findMaxPositive.poll();
+      int temp2 = findMaxPositive.poll();
+      int temp3 = findMaxPositive.poll();
+      maxPositive = Math.max(temp2, temp3);
+      result = temp1 * temp2 * temp3;
+    } else if(findMaxPositive.size() == 2) {
+      findMaxPositive.poll();
+      maxPositive = findMaxPositive.poll();
+    } else if (findMaxPositive.size() == 1) {
+      maxPositive = findMaxPositive.poll();
     }
 
-    if (maxHeap.size() >= 2) {
-      int temp1 = maxHeap.poll();
-      int temp2 = maxHeap.poll();
-      int temp3 = maxHeap.poll();
-      if (result == Integer.MIN_VALUE) {
-        return temp1 * temp2 * temp3;
+    if (maxPositive >= 0) { // means there is at least one positive number
+      if (findMinNegative.size() == 3) {
+        findMinNegative.poll();
+        int temp2 = findMinNegative.poll();
+        int temp3 = findMinNegative.poll();
+        result = Math.max(maxPositive * temp2 * temp3, result);
+      } else if (findMinNegative.size() == 2) {
+        int temp2 = findMinNegative.poll();
+        int temp3 = findMinNegative.poll();
+        result = Math.max(maxPositive * temp2 * temp3, result);
       }
+    } else { // means there is no positive number
+      int temp1 = findMaxNegative.poll();
+      int temp2 = findMaxNegative.poll();
+      int temp3 = findMaxNegative.poll();
+      result = temp1 * temp2 * temp3;
     }
-    return result * productOfTwo;
+
+    return result;
   }
 
   public static void Run() {
     MaxProductThreeNums m = new MaxProductThreeNums();
+    System.out.println(m.maximumProduct(new int[]{-3, -2, -1, 0, 0, 0, 0}));
     System.out.println(m.maximumProduct(new int[]{-1, -2, -3}));
     System.out.println(m.maximumProduct(new int[]{1, 2, 3}));
     System.out.println(m.maximumProduct(new int[]{1, 2, 3, 4}));
