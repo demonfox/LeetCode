@@ -20,7 +20,7 @@ public class RestoreIPAddresses {
   private void helper(String s, int start, int dotCount, List<String> result, ArrayList<String> temp) {
     if (dotCount == 3) {
       String octet = s.substring(start);
-      if (octet.length() != 1 && octet.charAt(0) == '0') return;
+      if (octet.length() > 3 || (octet.length() != 1 && octet.charAt(0) == '0')) return;
       int octetInt = Integer.parseInt(octet);
       if (octetInt >= 0 && octetInt <= 255) {
         temp.add(octet);
@@ -33,7 +33,7 @@ public class RestoreIPAddresses {
 
     for (int i = start+1; i < s.length(); i++) {
       String octet = s.substring(start, i);
-      if (octet.length() != 1 && octet.charAt(0) == '0') return;
+      if (octet.length() > 3 || (octet.length() != 1 && octet.charAt(0) == '0')) return;
 
       int octetInt = Integer.parseInt(octet);
       if (octetInt > 255) return;
