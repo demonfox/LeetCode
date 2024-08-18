@@ -46,10 +46,6 @@ public class BaseballGame {
       }
     }
 
-    // int result = 0;
-    // while (!stack.empty()) {
-    //   result += stack.pop();
-    // }
     return result;
   }
 
