@@ -272,6 +272,7 @@
 0657. Robot Return To Origin
 0661. Image Smoother
 0682. Baseball Game
+0693. Binary Number with Alternating Bits
 0700. Search in a Binary Search Tree
 0703. Kth Largest Element in a Stream
 0876. Middle of the Linked List
