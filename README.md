@@ -271,6 +271,7 @@
 0655. Print Binary Tree
 0657. Robot Return To Origin
 0661. Image Smoother
+0671. Second Minimum Node In a Binary Tree
 0682. Baseball Game
 0693. Binary Number with Alternating Bits
 0696. Count Binary Substrings
