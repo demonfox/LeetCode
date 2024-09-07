@@ -280,6 +280,7 @@
 0697. Degree of an Array
 0700. Search in a Binary Search Tree
 0703. Kth Largest Element in a Stream
+0704. Binary Search
 0876. Middle of the Linked List
 0887. Super Egg Drop
 0917. Reverse Only Letters
