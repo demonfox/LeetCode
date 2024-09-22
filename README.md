@@ -84,6 +84,7 @@
 0092. Reverse Linked List II
 0093. Restore IP Addresses
 0094. Binary Tree Inorder Traversal
+0095. Unique Binary Search Trees II
 0096. Unique Binary Search Trees
 0097. Interleaving String
 0098. Validate Binary Search Tree
