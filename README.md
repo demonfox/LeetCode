@@ -292,6 +292,7 @@
 0728. Self Dividing Numbers
 0733. Flood Fill
 0744. Find Smallest Letter Greater Than Target
+0746. Min Cost Climbing Stairs
 0876. Middle of the Linked List
 0887. Super Egg Drop
 0917. Reverse Only Letters
