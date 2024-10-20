@@ -295,6 +295,7 @@
 0746. Min Cost Climbing Stairs
 0747. Largest Number At Least Twice of Others
 0748. Shortest Completing Word
+0766. Toeplitz Matrix
 0876. Middle of the Linked List
 0887. Super Egg Drop
 0917. Reverse Only Letters
