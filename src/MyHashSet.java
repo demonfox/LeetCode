@@ -8,6 +8,7 @@ import java.util.LinkedList;
 
 public class MyHashSet {
   LinkedList<Integer>[] bucketArray;
+  @SuppressWarnings("unchecked")
   public MyHashSet() {
     bucketArray = new LinkedList[1000];
     for (int i = 0; i < bucketArray.length; i++) {

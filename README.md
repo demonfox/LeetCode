@@ -298,6 +298,7 @@
 0766. Toeplitz Matrix
 0771. Jewels and Stones
 0783. Minimum Distance Between BST Nodes
+0796. Rotate String
 0876. Middle of the Linked List
 0887. Super Egg Drop
 0917. Reverse Only Letters

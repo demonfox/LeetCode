@@ -5,7 +5,6 @@
 // Find the number that occurs twice and the number that is missing and return them in the form of an array.
 
 import java.util.Arrays;
-import java.util.HashSet;
 
 public class SetMismatch {
   // public int[] findErrorNums(int[] nums) {
