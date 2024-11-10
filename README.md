@@ -295,6 +295,7 @@
 0746. Min Cost Climbing Stairs
 0747. Largest Number At Least Twice of Others
 0748. Shortest Completing Word
+0762. Prime Number of Set Bits in Binary Representation
 0766. Toeplitz Matrix
 0771. Jewels and Stones
 0783. Minimum Distance Between BST Nodes
