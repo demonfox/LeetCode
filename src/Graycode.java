@@ -34,6 +34,7 @@ public class Graycode {
     return false;
   }
 
+  @SuppressWarnings("unused")
   private List<Integer> generateAllValidNeighbor(int n) {
     int mask = 0x1;
     List<Integer> result = new LinkedList<>();
