@@ -119,6 +119,7 @@
 0129. Sum Root to Leaf Numbers
 0130. Surrounded Regions
 0131. Palindrome Partitioning
+0133. Clone Graph
 0134. Gas Station
 0136. Single Number
 0138. Copy List with Random Pointer
@@ -304,6 +305,7 @@
 0796. Rotate String
 0804. Unique Morse Code Words
 0806. Number of Lines To Write String
+0819. Most Common Word
 0876. Middle of the Linked List
 0887. Super Egg Drop
 0917. Reverse Only Letters
