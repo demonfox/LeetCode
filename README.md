@@ -307,6 +307,7 @@
 0806. Number of Lines To Write String
 0819. Most Common Word
 0821. Shortest Distance to a Character
+0824. Goat Latin
 0876. Middle of the Linked List
 0887. Super Egg Drop
 0917. Reverse Only Letters
