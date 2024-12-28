@@ -305,6 +305,7 @@
 0796. Rotate String
 0804. Unique Morse Code Words
 0806. Number of Lines To Write String
+0812. Largest Triangle Area
 0819. Most Common Word
 0821. Shortest Distance to a Character
 0824. Goat Latin
