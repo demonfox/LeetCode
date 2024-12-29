@@ -310,6 +310,8 @@
 0821. Shortest Distance to a Character
 0824. Goat Latin
 0830. Positions of Large Groups
+0832. Flipping an Image
+0836. Rectangle Overlap
 0876. Middle of the Linked List
 0887. Super Egg Drop
 0917. Reverse Only Letters
