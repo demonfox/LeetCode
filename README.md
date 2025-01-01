@@ -313,6 +313,7 @@
 0830. Positions of Large Groups
 0832. Flipping an Image
 0836. Rectangle Overlap
+0844. Backspace String Compare
 0876. Middle of the Linked List
 0887. Super Egg Drop
 0917. Reverse Only Letters
