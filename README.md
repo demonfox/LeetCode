@@ -132,6 +132,7 @@
 0144. Binary Tree Preorder Traversal
 0145. Binary Tree Postorder Traversal
 0146. LRU Cahce
+0147. Insertion Sort List
 0148. Sort List
 0149. Max Points on a Line
 0150. Evaluate Reverse Polish Notation
@@ -316,6 +317,7 @@
 0836. Rectangle Overlap
 0844. Backspace String Compare
 0859. Buddy Strings
+0860. Lemonade Change
 0876. Middle of the Linked List
 0887. Super Egg Drop
 0917. Reverse Only Letters
