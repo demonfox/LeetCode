@@ -320,6 +320,7 @@
 0844. Backspace String Compare
 0859. Buddy Strings
 0860. Lemonade Change
+0867. Transpose Matrix
 0876. Middle of the Linked List
 0887. Super Egg Drop
 0917. Reverse Only Letters
