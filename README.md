@@ -137,6 +137,7 @@
 0149. Max Points on a Line
 0150. Evaluate Reverse Polish Notation
 0152. Maximum Product Subarray
+0153. Find Minimum in Rotated Sorted Array
 0155. Min Stack
 0160. Intersection of Two Linked Lists
 0162. Find Peak Element
