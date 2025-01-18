@@ -322,6 +322,7 @@
 0860. Lemonade Change
 0867. Transpose Matrix
 0868. Binary Gap
+0872. Leaf-Similar Trees
 0876. Middle of the Linked List
 0887. Super Egg Drop
 0917. Reverse Only Letters
