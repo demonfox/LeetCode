@@ -324,6 +324,7 @@
 0868. Binary Gap
 0872. Leaf-Similar Trees
 0876. Middle of the Linked List
+0883. Projection Area of 3D Shapes
 0884. Uncommon Words from Two Sentences
 0887. Super Egg Drop
 0917. Reverse Only Letters
