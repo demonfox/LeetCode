@@ -328,6 +328,7 @@
 0883. Projection Area of 3D Shapes
 0884. Uncommon Words from Two Sentences
 0887. Super Egg Drop
+0888. Fair Candy Swap
 0917. Reverse Only Letters
 0978. Longest Turbulent Subarray
 1008. Construct Binary Search Tree from Preorder Traversal
