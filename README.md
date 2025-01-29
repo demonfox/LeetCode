@@ -144,6 +144,7 @@
 0162. Find Peak Element
 0163. Missing Ranges
 0165. Compare Version Numbers
+0166. Fraction to Recurring Decimal
 0167. Two Sum II - Input array is sorted
 0168. Excel Sheet Column Title
 0169. Majority Element
