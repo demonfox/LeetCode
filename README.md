@@ -330,6 +330,7 @@
 0884. Uncommon Words from Two Sentences
 0887. Super Egg Drop
 0888. Fair Candy Swap
+0896. Monotonic Array
 0917. Reverse Only Letters
 0978. Longest Turbulent Subarray
 1008. Construct Binary Search Tree from Preorder Traversal
