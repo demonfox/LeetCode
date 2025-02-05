@@ -330,6 +330,7 @@
 0884. Uncommon Words from Two Sentences
 0887. Super Egg Drop
 0888. Fair Candy Swap
+0892. Surface Area of 3D Shapes
 0896. Monotonic Array
 0917. Reverse Only Letters
 0978. Longest Turbulent Subarray
