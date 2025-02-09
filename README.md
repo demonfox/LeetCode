@@ -335,6 +335,7 @@
 0888. Fair Candy Swap
 0892. Surface Area of 3D Shapes
 0896. Monotonic Array
+0897. Increasing Order Search Tree
 0917. Reverse Only Letters
 0978. Longest Turbulent Subarray
 1008. Construct Binary Search Tree from Preorder Traversal
