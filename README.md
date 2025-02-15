@@ -340,6 +340,7 @@
 0897. Increasing Order Search Tree
 0905. Sort Array By Parity
 0908. Smallest Range I
+0914. X of a Kind in a Deck of Cards
 0917. Reverse Only Letters
 0978. Longest Turbulent Subarray
 1008. Construct Binary Search Tree from Preorder Traversal
