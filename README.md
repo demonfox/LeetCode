@@ -161,6 +161,7 @@
 0198. House Robber
 0199. Binary Tree Right Side View
 0200. Number of Islands
+0201. Bitwise AND of Numbers Range
 0202. Happy Number
 0203. Remove Linked List Elements
 0204. Count Primes
@@ -337,6 +338,7 @@
 0892. Surface Area of 3D Shapes
 0896. Monotonic Array
 0897. Increasing Order Search Tree
+0905. Sort Array By Parity
 0917. Reverse Only Letters
 0978. Longest Turbulent Subarray
 1008. Construct Binary Search Tree from Preorder Traversal
