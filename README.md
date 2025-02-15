@@ -339,6 +339,7 @@
 0896. Monotonic Array
 0897. Increasing Order Search Tree
 0905. Sort Array By Parity
+0908. Smallest Range I
 0917. Reverse Only Letters
 0978. Longest Turbulent Subarray
 1008. Construct Binary Search Tree from Preorder Traversal
