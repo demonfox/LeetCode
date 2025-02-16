@@ -345,6 +345,7 @@
 0914. X of a Kind in a Deck of Cards
 0917. Reverse Only Letters
 0922. Sort Array By Parity II
+0925. Long Pressed Name
 0978. Longest Turbulent Subarray
 1008. Construct Binary Search Tree from Preorder Traversal
 1143. Longest Common Subsequence
