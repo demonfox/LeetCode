@@ -171,6 +171,7 @@
 0208. Implement Trie (Prefix Tree)
 0209. Minimum Size Subarray Sum
 0210. Course Schedule II
+0211. Design Add and Search Words Data Structure
 0212. Word Search II
 0215. Kth Largest Element
 0217. Contains Duplicate
