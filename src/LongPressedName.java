@@ -47,5 +47,6 @@ public class LongPressedName {
     System.out.println(lpn.isLongPressedName("saeed", "ssaaedd"));
     System.out.println(lpn.isLongPressedName("leelee", "lleeelee"));
     System.out.println(lpn.isLongPressedName("laiden", "laiden"));
+    System.out.println(lpn.isLongPressedName("pyplrz", "ppyypllr"));
   }
 }

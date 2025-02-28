@@ -43,5 +43,6 @@ public class HouseRobber {
     HouseRobber h = new HouseRobber();
     System.out.println(h.rob(new int[]{1,2,3,1}));
     System.out.println(h.rob(new int[]{2,7,9,3,1}));
+    System.out.println(h.rob(new int[]{2,7,9,3,1,3}));
   }
 }
