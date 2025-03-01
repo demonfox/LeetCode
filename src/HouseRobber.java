@@ -23,7 +23,7 @@ public class HouseRobber {
     // int[] DP = new int[nums.length];
     // DP[0] = nums[0];
     // DP[1] = Math.max(nums[0], nums[1]);
-    // for (int i=2; i<m; i++) {
+    // for (int i=2; i<nums.length; i++) {
     //   DP[i] = Math.max(DP[i-1], DP[i-2]+nums[i]);
     // }
     
