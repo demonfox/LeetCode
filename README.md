@@ -180,6 +180,7 @@
 0218. The Skyline Problem
 0219. Contains Duplicate II
 0220. Contains Duplicate III
+0221. Maximal Square
 0222. Count Complete Tree Nodes
 0225. Implement Stack using Queues
 0226. Invert Binary Tree
