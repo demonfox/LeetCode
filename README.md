@@ -182,6 +182,7 @@
 0220. Contains Duplicate III
 0221. Maximal Square
 0222. Count Complete Tree Nodes
+0223. Rectangle Area
 0225. Implement Stack using Queues
 0226. Invert Binary Tree
 0227. Basic Calculator II
@@ -353,6 +354,7 @@
 0933. Number of Recent Calls
 0938. Range Sum of BST
 0941. Valid Mountain Array
+0942. DI String Match
 0978. Longest Turbulent Subarray
 1008. Construct Binary Search Tree from Preorder Traversal
 1143. Longest Common Subsequence
