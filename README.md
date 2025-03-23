@@ -355,6 +355,7 @@
 0938. Range Sum of BST
 0941. Valid Mountain Array
 0942. DI String Match
+0944. Delete Columns to Make Sorted
 0978. Longest Turbulent Subarray
 1008. Construct Binary Search Tree from Preorder Traversal
 1143. Longest Common Subsequence
