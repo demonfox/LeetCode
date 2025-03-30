@@ -187,6 +187,7 @@
 0226. Invert Binary Tree
 0227. Basic Calculator II
 0228. Summary Ranges
+0229. Majority Element II
 0230. Kth Smallest Element in a BST
 0231. Power of Two
 0232. Implment Queue using Stacks
