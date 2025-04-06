@@ -360,6 +360,7 @@
 0942. DI String Match
 0944. Delete Columns to Make Sorted
 0953. Verifying an Alien Dictionary
+0961. N-Repeated Element in Size 2N Array
 0978. Longest Turbulent Subarray
 1008. Construct Binary Search Tree from Preorder Traversal
 1143. Longest Common Subsequence
