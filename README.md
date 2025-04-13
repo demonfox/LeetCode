@@ -202,6 +202,7 @@
 0242. Valid Anagram
 0257. Binary Tree Paths
 0258. Add Digits
+0260. Single Number III
 0263. Ugly Number
 0264. Ugly Number II
 0268. Missing Number
