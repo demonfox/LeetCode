@@ -206,6 +206,7 @@
 0263. Ugly Number
 0264. Ugly Number II
 0268. Missing Number
+0274. H-Index
 0278. First Bad Version
 0279. Perfect Squares
 0280. Wiggle Sort
