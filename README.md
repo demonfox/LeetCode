@@ -212,6 +212,7 @@
 0279. Perfect Squares
 0280. Wiggle Sort
 0283. Move Zeroes
+0284. Peeking Iterator
 0287. Find the Duplicate Number
 0289. Game of Life
 0290. Word Pattern

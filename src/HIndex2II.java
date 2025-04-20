@@ -17,6 +17,10 @@ public class HIndex2II {
     int l = 0, r = citations.length-1;
     int m;
     while (true) {
+      // using [0, 0, 4, 4] as an example, when we narrow is down to l = 1, r = 2,
+      // we are left with the left bound (l, whose answer is citations[l]) 
+      // and the right bound (r, whose answer is citations.length - r)
+      // both are valid answers, so we need to return the max of them
       if (l == (r - 1))
         return Math.max(citations[l], citations.length - r);
       m = l + (r - l) / 2;
