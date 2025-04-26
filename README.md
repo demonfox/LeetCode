@@ -367,6 +367,7 @@
 0961. N-Repeated Element in Size 2N Array
 0965. Univalued Binary Tree
 0976. Largest Perimeter Triangle
+0977. Squares of a Sorted Array
 0978. Longest Turbulent Subarray
 1008. Construct Binary Search Tree from Preorder Traversal
 1143. Longest Common Subsequence
