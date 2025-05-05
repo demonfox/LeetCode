@@ -218,6 +218,7 @@
 0290. Word Pattern
 0292. Nim Game
 0297. Serialize and Deserialize Binary Tree
+0299. Bulls and Cows
 0300. Longest Increasing Subsequence
 0303. Range Sum Query - Immutable
 0307. Range Sum Query - Mutable
