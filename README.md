@@ -221,6 +221,7 @@
 0299. Bulls and Cows
 0300. Longest Increasing Subsequence
 0303. Range Sum Query - Immutable
+0304. Range Sum Query 2D - Immutable
 0307. Range Sum Query - Mutable
 0315. Count of Smaller Numbers After Self
 0322. Coin Change
