@@ -17,9 +17,8 @@ public class BestTimeToBuyAndSellStockWithCD {
     //                                            from state 1 directly; it has to transition from state 2
     // DP[i][1] = max(DP[i-1][1], DP[i-1][0] - prices[i])
     // DP[i][2] = DP[i-1][1] + prices[i]
-    // result = DP[last_day][0] since we should notice DP[i][0] is an increasing
-    // sequence
-    // and still holding a share on the last_day is plain stupid
+    // result = max(DP[last_day][0], DP[last_day][2] since we should notice DP[i][0] & DP[i][2] are both increasing
+    // sequences and still holding a share on the last_day is plain stupid
     int[][] DP = new int[prices.length][3];
     DP[0][0] = 0;
     DP[0][1] = -prices[0];

@@ -373,6 +373,7 @@
 0976. Largest Perimeter Triangle
 0977. Squares of a Sorted Array
 0978. Longest Turbulent Subarray
+0989. Add to Array-Form of Integer
 0993. Cousins in Binary Tree
 1008. Construct Binary Search Tree from Preorder Traversal
 1143. Longest Common Subsequence
