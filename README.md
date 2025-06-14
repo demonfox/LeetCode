@@ -225,6 +225,7 @@
 0306. Additive Number
 0307. Range Sum Query - Mutable
 0309. Best Time to Buy and Sell Stock with Cooldown
+0310. Minimum Height Trees
 0313. Super Ugly Number
 0315. Count of Smaller Numbers After Self
 0322. Coin Change
