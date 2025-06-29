@@ -229,6 +229,7 @@
 0313. Super Ugly Number
 0315. Count of Smaller Numbers After Self
 0316. Remove Duplicate Letters
+0318. Maximum Product of Word Lengths
 0322. Coin Change
 0324. Wiggle Sort II
 0326. Power of Three
