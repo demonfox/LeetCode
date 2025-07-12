@@ -240,6 +240,7 @@
 0340. Longest Substring With At Most K Distinct Characters
 0341. Flatten Nested List Iterator
 0342. Power of Four
+0343. Integer Break
 0344. Reverse String
 0345. Reverse Vowels of a String
 0347. Top K Frequent Elements
