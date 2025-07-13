@@ -381,6 +381,7 @@
 0978. Longest Turbulent Subarray
 0989. Add to Array-Form of Integer
 0993. Cousins in Binary Tree
+0997. Find the Town Judge
 1008. Construct Binary Search Tree from Preorder Traversal
 1143. Longest Common Subsequence
 1189. Maximum Number of Balloons
