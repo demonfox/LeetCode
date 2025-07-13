@@ -235,6 +235,7 @@
 0324. Wiggle Sort II
 0326. Power of Three
 0328. Odd Even Linked List
+0331. Verify Preorder Serialization of a Binary Tree
 0334. Increasing Triplet Subsequence
 0338. Counting Bits
 0340. Longest Substring With At Most K Distinct Characters
