@@ -247,6 +247,7 @@
 0347. Top K Frequent Elements
 0349. Intersection of Two Arrays
 0350. Intersection of Two Arrays II
+0357. Count Numbers with Unique Digits
 0367. Valid Perfect Square
 0371. Sum of Two Integers
 0374. Guess Number Higher or Lower
