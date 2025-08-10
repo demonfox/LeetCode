@@ -237,6 +237,7 @@
 0328. Odd Even Linked List
 0331. Verify Preorder Serialization of a Binary Tree
 0334. Increasing Triplet Subsequence
+0337. House Robber III
 0338. Counting Bits
 0340. Longest Substring With At Most K Distinct Characters
 0341. Flatten Nested List Iterator
@@ -384,6 +385,7 @@
 0989. Add to Array-Form of Integer
 0993. Cousins in Binary Tree
 0997. Find the Town Judge
+0999. Available Captures for Rook
 1008. Construct Binary Search Tree from Preorder Traversal
 1143. Longest Common Subsequence
 1189. Maximum Number of Balloons
