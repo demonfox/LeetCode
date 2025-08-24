@@ -36,6 +36,7 @@ public class PutMarbleInBags {
     }
     return result;
   }
+  
   public static void Run() {
     PutMarbleInBags solution = new PutMarbleInBags();
     int[] weights = {1, 4, 2, 5, 2};
