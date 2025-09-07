@@ -253,6 +253,7 @@
 0367. Valid Perfect Square
 0368. Largest Divisible Subset
 0371. Sum of Two Integers
+0372. Super Pow
 0374. Guess Number Higher or Lower
 0378. Kth Smallest Element in a Sorted Matrix
 0380. Insert Delete GetRandom O(1)
