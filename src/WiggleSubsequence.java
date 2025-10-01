@@ -16,18 +16,21 @@ public class WiggleSubsequence {
     if (nums.length == 2 && nums[0] != nums[1]) return 2;
 
     boolean isDownTrend = true;
-    int startIndex = 1;
+    int i = 1;
     int result = 1;
-    while (nums[startIndex] == nums[startIndex-1] && startIndex < nums.length)
-      startIndex++;
-    if (nums[startIndex] > nums[startIndex-1]) {
+    while (i < nums.length && nums[i] == nums[i-1])
+      i++;
+    if (i == nums.length) return 1;
+
+    if (nums[i] > nums[i-1]) {
       result++;
       isDownTrend = false;
-    } else {
+    } else if (nums[i] < nums[i-1]){
       result++;
     }
 
-    for (int i=startIndex+1; i<nums.length; i++) {
+    i++;
+    for (; i<nums.length; i++) {
       if (nums[i] > nums[i-1]) {
         if (isDownTrend) {
           result++;
