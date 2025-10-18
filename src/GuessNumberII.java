@@ -6,8 +6,6 @@
 // Every time you guess a wrong number x, you will pay x dollars. If you run out of money, you lose the game.
 // Given a particular n, return the minimum amount of money you need to guarantee a win regardless of what number I pick.
 
-import java.util.HashMap;
-
 public class GuessNumberII {
   // private HashMap<Integer, Integer> cache = new HashMap<>();
   int[][] moneyAmount;

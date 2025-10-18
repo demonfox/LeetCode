@@ -25,6 +25,7 @@ public class LargestDivisibleSubset {
     return result;
   }
 
+  @SuppressWarnings("unchecked")
   public List<Integer> dp(int[] nums) {
     Arrays.sort(nums);
     // DP[i] = longest divisible subset starting from i, including nums[i]
