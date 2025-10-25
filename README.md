@@ -265,6 +265,7 @@
 0383. Ransom Note
 0384. Shuffle an Array
 0385. Mini Parser
+0386. Lexicographical Numbers
 0387. First Unique Character in a String
 0389. Find the Difference
 0392. Is Subsequence
