@@ -270,6 +270,7 @@
 0389. Find the Difference
 0390. Elimination Game
 0392. Is Subsequence
+0394. Decode String
 0395. Longest Substring with At Least K Repeating Characters
 0401. Binary Watch
 0404. Sum of Left Leaves
