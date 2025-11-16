@@ -267,12 +267,14 @@
 0385. Mini Parser
 0386. Lexicographical Numbers
 0387. First Unique Character in a String
+0388. Longest Absolute File Path
 0389. Find the Difference
 0390. Elimination Game
 0392. Is Subsequence
 0393. UTF-8 Validation
 0394. Decode String
 0395. Longest Substring with At Least K Repeating Characters
+0396. Rotate Function
 0401. Binary Watch
 0404. Sum of Left Leaves
 0405. Convert a Number to Hexadecimal
