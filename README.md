@@ -276,6 +276,7 @@
 0395. Longest Substring with At Least K Repeating Characters
 0396. Rotate Function
 0397. Integer Replacement
+0398. Random Pick Index
 0401. Binary Watch
 0404. Sum of Left Leaves
 0405. Convert a Number to Hexadecimal
