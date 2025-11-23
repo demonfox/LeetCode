@@ -404,6 +404,7 @@
 0997. Find the Town Judge
 0999. Available Captures for Rook
 1002. Find Common Characters
+1005. Maximize Sum Of Array After K Negations
 1008. Construct Binary Search Tree from Preorder Traversal
 1143. Longest Common Subsequence
 1189. Maximum Number of Balloons
