@@ -407,6 +407,7 @@
 1002. Find Common Characters
 1005. Maximize Sum Of Array After K Negations
 1008. Construct Binary Search Tree from Preorder Traversal
+1013. Partition Array Into Three Parts With Equal Sum
 1143. Longest Common Subsequence
 1189. Maximum Number of Balloons
 2551. Put Marbles in Bags
