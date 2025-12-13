@@ -278,6 +278,7 @@
 0397. Integer Replacement
 0398. Random Pick Index
 0399. Evaluate Division
+0400. Nth Digit
 0401. Binary Watch
 0404. Sum of Left Leaves
 0405. Convert a Number to Hexadecimal
