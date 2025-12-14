@@ -280,6 +280,7 @@
 0399. Evaluate Division
 0400. Nth Digit
 0401. Binary Watch
+0402. Remove K Digits
 0404. Sum of Left Leaves
 0405. Convert a Number to Hexadecimal
 0409. Longest Palindrome
