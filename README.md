@@ -283,6 +283,7 @@
 0402. Remove K Digits
 0404. Sum of Left Leaves
 0405. Convert a Number to Hexadecimal
+0406. Queue Reconstruction by Height
 0409. Longest Palindrome
 0412. Fizz Buzz
 0414. Third Maximum Number
