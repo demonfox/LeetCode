@@ -286,6 +286,7 @@
 0406. Queue Reconstruction by Height
 0409. Longest Palindrome
 0412. Fizz Buzz
+0413. Arithmetic Slices
 0414. Third Maximum Number
 0415. Add Strings
 0434. Number of Segments in a String
