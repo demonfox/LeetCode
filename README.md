@@ -27,6 +27,7 @@
 0027. Remove Element
 0028. Implement strStr()
 0029. Divide Two Integers
+0030. Substring with Concatenation of All Words
 0031. Next Permutation
 0033. Search in Rotated Sorted Array
 0034. Find First and Last Position of Element in Sorted Array
