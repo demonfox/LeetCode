@@ -290,6 +290,7 @@
 0413. Arithmetic Slices
 0414. Third Maximum Number
 0415. Add Strings
+0416. Partition Equal Subset Sum
 0434. Number of Segments in a String
 0441. Arranging Coins
 0448. Find All Numbers Disappeared in an Array
