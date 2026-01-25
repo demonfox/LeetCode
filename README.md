@@ -356,6 +356,7 @@
 0724. Find Pivot Index
 0728. Self Dividing Numbers
 0733. Flood Fill
+0739. Daily Temperatures
 0744. Find Smallest Letter Greater Than Target
 0746. Min Cost Climbing Stairs
 0747. Largest Number At Least Twice of Others
