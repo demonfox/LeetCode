@@ -4,9 +4,11 @@
 // For example, the pair [0, 1], indicates that to take course 0 you have to first take course 1.
 // Return true if you can finish all courses. Otherwise, return false.
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -20,7 +22,7 @@ class GraphNode {
 }
 
 public class CourseSchedule {
-  public boolean canFinish(int numCourses, int[][] prerequisites) {
+  public boolean canFinish1(int numCourses, int[][] prerequisites) {
     Map<Integer, GraphNode> map = new HashMap<Integer, GraphNode>();
     // build the prerequisite graph
     for (int i=0; i<prerequisites.length; i++) {
@@ -71,6 +73,44 @@ public class CourseSchedule {
     }
 
     stack.remove(g.val);
+    return false;
+  }
+
+  public boolean canFinish(int numCourses, int[][] prerequisites) {
+    List<Integer>[] prereq = new ArrayList[numCourses];
+    for (int i = 0; i < numCourses; i++)
+      prereq[i] = new ArrayList<>();
+
+    for (int[] p : prerequisites) {
+      int a = p[0], b = p[1];
+      prereq[a].add(b); // a depends on b
+    }
+
+    boolean[] visited = new boolean[numCourses];
+    boolean[] inStack = new boolean[numCourses];
+
+    for (int c = 0; c < numCourses; c++) {
+      if (!visited[c] && hasCycle(c, prereq, visited, inStack)) {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  private boolean hasCycle(int u, List<Integer>[] prereq,
+      boolean[] visited, boolean[] inStack) {
+    if (inStack[u])
+      return true; // back-edge
+    if (visited[u])
+      return false; // already verified acyclic
+
+    inStack[u] = true;
+    for (int v : prereq[u]) {
+      if (hasCycle(v, prereq, visited, inStack))
+        return true;
+    }
+    inStack[u] = false;
+    visited[u] = true;
     return false;
   }
 
