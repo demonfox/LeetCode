@@ -419,6 +419,7 @@
 1009. Complement of Base 10 Integer
 1013. Partition Array Into Three Parts With Equal Sum
 1018. Binary Prefix Divisible By 5
+1021. Remove Outermost Parentheses
 1143. Longest Common Subsequence
 1189. Maximum Number of Balloons
 2551. Put Marbles in Bags
