@@ -7,17 +7,17 @@ public class SumRootToLeafBinaryNums {
   }
 
   private void helper(TreeNode node, StringBuilder sb) {
-    if (node == null)
-      return;
+    sb.append(node.val);
     if (node.left == null && node.right == null) {
-      sb.append(node.val);
       result += Integer.parseInt(sb.toString(), 2);
       sb.deleteCharAt(sb.length()-1);
       return;
+    } else {
+      if (node.left != null)
+        helper(node.left, sb);
+      if (node.right != null)
+        helper(node.right, sb);
     }
-    sb.append(node.val);
-    helper(node.left, sb);
-    helper(node.right, sb);
     sb.deleteCharAt(sb.length()-1);
   }
 
