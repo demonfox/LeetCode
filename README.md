@@ -424,6 +424,7 @@
 1025. Divisor Game
 1030. Matrix Cells in Distance Order
 1037. Valid Boomerang
+1046. Last Stone Weight
 1143. Longest Common Subsequence
 1189. Maximum Number of Balloons
 2551. Put Marbles in Bags
